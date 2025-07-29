@@ -1,0 +1,10 @@
+<nav class="navbar">
+  <div class="container">
+    <ul>
+      <li *ngFor="let item of navbarLinks">
+        <a [href]="item.link">{{ item.label }}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+

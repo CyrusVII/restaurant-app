@@ -1,0 +1,35 @@
+{
+  "navbar": [
+    { "label": "Home", "link": "#home" },
+    { "label": "La Nostra Storia", "link": "#storia" },
+    { "label": "Menu", "link": "#menu" },
+    { "label": "Contatti", "link": "#contatti" }
+  ],
+  "footer": {
+    "contatti": {
+      "title": "Contatti",
+      "lines": [
+        "Via del Mare, 123",
+        "80067 Sorrento (NA)",
+        "Tel: 081 123 4567",
+        "info@mareazzurro.it"
+      ]
+    },
+    "orari": {
+      "title": "Orari",
+      "lines": [
+        "Martedì - Domenica",
+        "12:00 - 15:00",
+        "19:00 - 23:30",
+        "Lunedì chiuso"
+      ]
+    },
+    "social": {
+      "title": "Seguici",
+      "lines": [
+        "Resta aggiornato sulle nostre novità e eventi speciali sui nostri canali social."
+      ]
+    },
+    "copyright": "© 2024 Ristorante Mare Azzurro. Tutti i diritti riservati."
+  }
+}

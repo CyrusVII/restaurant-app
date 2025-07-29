@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Benvenuti nella Nostra Casa",
+    "text": "Un viaggio culinario attraverso i sapori autentici della tradizione italiana.",
+    "cta": {
+      "text": "Scopri la Nostra Storia",
+      "link": "#storia"
+    }
+  },
+  "sections": [
+    {
+      "id": "storia",
+      "title": "La Nostra Storia",
+      "paragraphs": [
+        "Nel 1985, la famiglia Rossini aprì le porte del Mare Azzurro...",
+        "Generazione dopo generazione, abbiamo custodito le ricette..."
+      ],
+      "image": {
+        "src": "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
+        "alt": "Interno storico del ristorante",
+        "overlayTitle": "1985 - L'inizio di un sogno",
+        "overlayText": "La prima sede del ristorante con i tavoli originali"
+      }
+    },
+    {
+      "title": "La Tradizione della Pasta",
+      "paragraphs": [
+        "Ogni mattina i nostri chef iniziano la preparazione della pasta fresca...",
+        "Il nostro segreto? L'impasto viene lavorato a mano per almeno 15 minuti..."
+      ],
+      "image": {
+        "src": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b",
+        "alt": "Piatto di pasta fresca",
+        "overlayTitle": "Pasta Fatta in Casa",
+        "overlayText": "Prepariamo la pasta fresca ogni giorno"
+      }
+    }
+  ]
+}

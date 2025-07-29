@@ -1,0 +1,20 @@
+<footer id="contatti" *ngIf="footerData.contatti">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>{{ footerData.contatti.title }}</h3>
+        <p *ngFor="let line of footerData.contatti.lines">{{ line }}</p>
+      </div>
+      <div class="footer-section">
+        <h3>{{ footerData.orari.title }}</h3>
+        <p *ngFor="let line of footerData.orari.lines">{{ line }}</p>
+      </div>
+      <div class="footer-section">
+        <h3>{{ footerData.social.title }}</h3>
+        <p *ngFor="let line of footerData.social.lines">{{ line }}</p>
+      </div>
+    </div>
+    <p>{{ footerData?.copyright }}</p>
+  </div>
+</footer>
+
