@@ -1,4 +1,4 @@
-<footer id="contatti" *ngIf="footerData.contatti">
+<footer id="contatti" *ngIf="footerData">
   <div class="container">
     <div class="footer-content">
       <div class="footer-section">
@@ -12,9 +12,14 @@
       <div class="footer-section">
         <h3>{{ footerData.social.title }}</h3>
         <p *ngFor="let line of footerData.social.lines">{{ line }}</p>
+        <div *ngIf="footerData.social.links" class="flex flex-col gap-2 mt-2">
+          <a *ngFor="let link of footerData.social.links" [href]="link.url" target="_blank" rel="noopener" class="social-btn block px-4 py-2 rounded-md text-white font-semibold text-center transition
+           bg-orange-500 hover:bg-white hover:text-cyan-500 shadow-sm">
+            {{ link.label }}
+          </a>
+        </div>
       </div>
     </div>
-    <p>{{ footerData?.copyright }}</p>
+    <p>{{ footerData.copyright }}</p>
   </div>
 </footer>
-

@@ -19,8 +19,7 @@ interface Section {
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   imports: [
-    CommonModule,
-    NgClass
+    CommonModule
   ] 
 })
 export class HomeComponent implements OnInit {

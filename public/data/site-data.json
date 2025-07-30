@@ -1,9 +1,8 @@
 {
   "navbar": [
-    { "label": "Home", "link": "#home" },
-    { "label": "La Nostra Storia", "link": "#storia" },
-    { "label": "Menu", "link": "#menu" },
-    { "label": "Contatti", "link": "#contatti" }
+    { "label": "Home", "link": "home" },
+    { "label": "Menu", "link": "menu" },
+    { "label": "Contatti", "link": "contatti" }
   ],
   "footer": {
     "contatti": {
@@ -28,6 +27,10 @@
       "title": "Seguici",
       "lines": [
         "Resta aggiornato sulle nostre novità e eventi speciali sui nostri canali social."
+      ],
+      "links": [
+        { "label": "Instagram", "url": "https://instagram.com/tuoprofilo" },
+        { "label": "Facebook", "url": "https://facebook.com/tuoprofilo" }
       ]
     },
     "copyright": "© Tutto il sito è stato realizzato da Ciro Maresca a scopo didattico. Tutti i diritti riservati."

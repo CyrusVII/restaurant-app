@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { FooterData } from '../../services/model/model';
+import { NavFooterService } from '../../services/navFooter.service';
 
 @Component({
   selector: 'app-footer',
@@ -9,13 +10,13 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
 })
 export class FooterComponent implements OnInit {
-  footerData: any = {};
+  footerData: FooterData | null = null;
 
-  constructor(private http: HttpClient) {}
+  constructor(private navFooterService: NavFooterService) {}
 
   ngOnInit(): void {
-    this.http.get<any>('data/site-data.json').subscribe(data => {
-      this.footerData = data.footer;
+    this.navFooterService.getNavbarLinks().subscribe((response) => {
+      this.footerData = response.footer;
     });
   }
 }

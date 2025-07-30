@@ -16,7 +16,7 @@
         "Generazione dopo generazione, abbiamo custodito le ricette..."
       ],
       "image": {
-        "src": "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
+        "src": "img/sorrento.png",
         "alt": "Interno storico del ristorante",
         "overlayTitle": "1985 - L'inizio di un sogno",
         "overlayText": "La prima sede del ristorante con i tavoli originali"
@@ -29,7 +29,7 @@
         "Il nostro segreto? L'impasto viene lavorato a mano per almeno 15 minuti..."
       ],
       "image": {
-        "src": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b",
+        "src": "img/sorrento.png",
         "alt": "Piatto di pasta fresca",
         "overlayTitle": "Pasta Fatta in Casa",
         "overlayText": "Prepariamo la pasta fresca ogni giorno"
