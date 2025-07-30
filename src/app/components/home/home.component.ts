@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get<any>('assets/data/home-content.json').subscribe(data => {
+    this.http.get<any>('data/home-content.json').subscribe(data => {
       this.hero = data.hero;
       this.sections = data.sections;
     });

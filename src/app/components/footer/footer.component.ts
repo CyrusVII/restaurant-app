@@ -14,9 +14,8 @@ export class FooterComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get<any>('assets/data/site-data.json').subscribe(data => {
+    this.http.get<any>('data/site-data.json').subscribe(data => {
       this.footerData = data.footer;
-      console.log('Footer data loaded:', this.footerData);
     });
   }
 }

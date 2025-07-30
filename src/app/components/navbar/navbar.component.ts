@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { NavbarLink } from '../../services/model/model';
+import { NavFooterService } from '../../services/navFooter.service';
 
 @Component({
   selector: 'app-navbar',
@@ -8,15 +10,19 @@ import { CommonModule } from '@angular/common';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
 })
-export class NavbarComponent implements OnInit {
-  navbarLinks: { label: string, link: string }[] = [];
 
-  constructor(private http: HttpClient) {}
+export class NavbarComponent implements OnInit {
+  navbarLinks: NavbarLink[] = [];
+
+  constructor(private navFooterService: NavFooterService) {
+  }
 
   ngOnInit(): void {
-    this.http.get<any>('assets/data/site-data.json').subscribe(data => {
-      this.navbarLinks = data.navbar;
+    this.navFooterService.getNavbarLinks().subscribe((response) => {
+      this.navbarLinks = response.navbar;
     });
   }
+
 }
+
 
