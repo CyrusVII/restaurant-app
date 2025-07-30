@@ -1,24 +1,16 @@
-<!-- HERO -->
-<section class="hero" *ngIf="hero">
-  <div class="container">
-    <h2>{{ hero.title }}</h2>
-    <p>{{ hero.text }}</p>
-    <a [href]="hero.cta.link" class="cta-button">{{ hero.cta.text }}</a>
-  </div>
-</section>
 
 <!-- SECTIONS -->
-<section class="section" *ngFor="let section of sections; let i = index" [attr.id]="section.id">
+<section class="section" *ngFor="let section of homeData; let i = index" [attr.id]="section.id">
   <div class="container">
     <div class="section-content" [ngClass]="{ 'reverse': i % 2 === 1 }">
       <!-- TEXT -->
-      <div class="text-content">
+      <div class="text-content slide-up" appScrollAnimate>
         <h2>{{ section.title }}</h2>
         <p *ngFor="let p of section.paragraphs">{{ p }}</p>
       </div>
 
       <!-- IMAGE -->
-      <div class="image-content">
+      <div class="image-content slide-up" appScrollAnimate>
         <img [src]="section.image.src" [alt]="section.image.alt" />
         <div class="image-overlay">
           <h3>{{ section.image.overlayTitle }}</h3>

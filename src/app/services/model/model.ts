@@ -1,9 +1,10 @@
-//nav and footer model interfaces
+//nav model interfaces
 export interface NavbarLink {
   label: string;
   link: string;
 }
 
+//footer model interfaces
 export interface SocialLink {
   label: string;
   url: string;
@@ -18,4 +19,17 @@ export interface FooterData {
   orari: FooterSection;
   social: FooterSection;
   copyright: string;
+}
+
+//section home interface 
+export interface HomeData{
+  id?: string;
+  title: string;
+  paragraphs: string[];
+  image: {
+    src: string;
+    alt: string;
+    overlayTitle: string;
+    overlayText: string;
+  };
 }

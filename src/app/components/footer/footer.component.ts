@@ -5,6 +5,7 @@ import { NavFooterService } from '../../services/navFooter.service';
 
 @Component({
   selector: 'app-footer',
+  standalone: true,
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css'],
   imports: [CommonModule],

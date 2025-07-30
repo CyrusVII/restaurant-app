@@ -6,6 +6,7 @@ import { NavFooterService } from '../../services/navFooter.service';
 
 @Component({
   selector: 'app-navbar',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],

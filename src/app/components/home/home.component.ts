@@ -1,37 +1,32 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { CommonModule, NgClass } from '@angular/common';
+import { HomeService } from '../../services/home.service';
+import { HomeData } from '../../services/model/model';
+import { ScrollAnimateDirective } from '../../directives/scroll-animate.directive';
 
-interface Section {
-  id?: string;
-  title: string;
-  paragraphs: string[];
-  image: {
-    src: string;
-    alt: string;
-    overlayTitle: string;
-    overlayText: string;
-  };
-}
+
 
 @Component({
   selector: 'app-home',
+  standalone: true,
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   imports: [
-    CommonModule
+    CommonModule,
+    ScrollAnimateDirective
   ] 
 })
 export class HomeComponent implements OnInit {
-  hero: any;
-  sections: Section[] = [];
+  homeData: HomeData[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private homeService: HomeService) {
+  }
 
   ngOnInit(): void {
-    this.http.get<any>('data/home-content.json').subscribe(data => {
-      this.hero = data.hero;
-      this.sections = data.sections;
+    this.homeService.getHomeLinks().subscribe((response) => {
+      this.homeData = response.sections; 
+    }, (error) => {
+      console.error('Error fetching home data:', error);
     });
   }
 }
