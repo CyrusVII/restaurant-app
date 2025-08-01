@@ -1,11 +1,20 @@
-<div class="page-wrapper">
-  <app-navbar></app-navbar>
+<div class="page-wrapper ">
 
-  <main class="content">
+  <header>
+    <div class="container">
+      <h1>Mare Azzurro</h1>
+      <p class="subtitle">Tradizione e sapori autentici dal 1985</p>
+    </div>
+  </header>
+
+  <div class="h-fit sticky top-0 left-0 z-50 w-full">
+    <app-navbar></app-navbar>
+  </div>
+
+
+  <main class="content ">
     <router-outlet></router-outlet>
   </main>
 
   <app-footer></app-footer>
 </div>
-
-

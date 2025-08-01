@@ -30,6 +30,18 @@ body {
     padding: 0 20px;
 }
 
+/* No scroll */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 /* Header */
 header {
     background: linear-gradient(135deg, #1976d2 0%, #42a5f5 100%);
