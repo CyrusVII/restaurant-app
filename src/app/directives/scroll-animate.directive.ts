@@ -14,7 +14,7 @@ export class ScrollAnimateDirective implements OnInit {
       ([entry]) => {
         this.animateIn = entry.isIntersecting;
       },
-      { threshold: 0.2 }
+      { threshold: 0.3 } // Trigger when 30% of the element is visible
     );
     observer.observe(this.el.nativeElement);
   }

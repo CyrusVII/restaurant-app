@@ -46,7 +46,8 @@ body {
 header {
     background: linear-gradient(135deg, #1976d2 0%, #42a5f5 100%);
     color: white;
-    padding: 2rem 0;
+    padding: 1rem 0 0.5rem 0;
+    margin: 0;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -64,13 +65,13 @@ header::before {
 }
 
 @keyframes float {
-    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    0%, 100% { transform: translate(0, 0) rotate(0deg); } 
     50% { transform: translate(-20px, -20px) rotate(5deg); }
 }
 
 h1 {
     font-size: 3.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     position: relative;
     z-index: 1;
@@ -222,19 +223,19 @@ nav a:hover {
 footer {
     background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
     color: white;
-    padding: 3rem 0 2rem;
+    padding: 2rem 0 2rem;
     text-align: center;
 }
 
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-bottom: 2rem;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .footer-section h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-size: 1.3rem;
 }
 
@@ -275,7 +276,7 @@ footer {
     }
 
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 0.5rem;
         
