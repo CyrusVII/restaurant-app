@@ -1,0 +1,72 @@
+{
+  "menu": [
+    {
+      "categoria": "Antipasti",
+      "piatti": [
+        {
+          "nome": "Bruschette miste",
+          "descrizione": "Pane tostato con pomodoro fresco, basilico e olio extravergine.",
+          "prezzo": 6.50,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Cozze alla marinara",
+          "descrizione": "Cozze fresche cotte con aglio, prezzemolo e vino bianco.",
+          "prezzo": 9.00,
+          "immagine": "assets/images/capri.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Primi",
+      "piatti": [
+        {
+          "nome": "Spaghetti alle vongole",
+          "descrizione": "Spaghetti con vongole fresche, aglio e prezzemolo.",
+          "prezzo": 14.00,
+          "immagine": "assets/images/capri.jpg"
+        },
+        {
+          "nome": "Risotto alla pescatora",
+          "descrizione": "Riso con frutti di mare misti e pomodoro fresco.",
+          "prezzo": 15.00,
+          "immagine": "assets/images/capri.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Secondi",
+      "piatti": [
+        {
+          "nome": "Grigliata mista di pesce",
+          "descrizione": "Selezione di pesce fresco alla griglia.",
+          "prezzo": 20.00,
+          "immagine": "assets/images/capri.jpg"
+        },
+        {
+          "nome": "Frittura di calamari",
+          "descrizione": "Calamari fritti croccanti serviti con limone.",
+          "prezzo": 16.00,
+          "immagine": "assets/images/capri.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Dolci",
+      "piatti": [
+        {
+          "nome": "Tiramisù",
+          "descrizione": "Classico dolce al caffè e mascarpone.",
+          "prezzo": 5.00,
+          "immagine": "assets/images/capri.jpg"
+        },
+        {
+          "nome": "Panna cotta ai frutti di bosco",
+          "descrizione": "Panna cotta cremosa con salsa ai frutti di bosco.",
+          "prezzo": 5.50,
+          "immagine": "assets/images/capri.jpg"
+        }
+      ]
+    }
+  ]
+}

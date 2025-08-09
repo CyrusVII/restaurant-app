@@ -1,5 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { InfoComponent } from './components/info/info.component';
 
 export const routes: Routes = [
   // Define your routes
@@ -14,11 +16,11 @@ export const routes: Routes = [
   },
   {
     path: 'menu',
-    component: HomeComponent 
+    component: MenuComponent
   },
   {
     path: 'contatti',
-    component: HomeComponent 
+    component: InfoComponent
   }
 
 
