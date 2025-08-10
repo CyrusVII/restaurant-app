@@ -52,6 +52,23 @@
       ]
     },
     {
+      "categoria": "Pizze",
+      "piatti": [
+        {
+          "nome": "Bologna",
+          "descrizione": "Pistacchio e mortadella",
+          "prezzo": 10.00,
+          "immagine": "assets/images/capri.jpg"
+        },
+        {
+          "nome": "Bologna",
+          "descrizione": "Pistacchio e mortadella",
+          "prezzo": 10.00,
+          "immagine": "assets/images/capri.jpg"
+        }
+      ]
+    },
+    {
       "categoria": "Dolci",
       "piatti": [
         {

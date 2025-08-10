@@ -1,1 +1,50 @@
-<div>menu zone</div>
+<div class="menu-wrapper container">
+
+  <!-- Nav categorie per Desktop -->
+  <nav class="menu-nav" *ngIf="!isMobile">
+    <ul>
+      <li *ngFor="let cat of menuData">
+        <button (click)="selectCategoria(cat)">{{ cat.categoria }}</button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Pulsanti categorie per Mobile -->
+  <div class="menu-mobile-nav" *ngIf="isMobile && !selectedCategoria">
+    <button class="circle-btn" *ngFor="let cat of menuData" (click)="selectCategoria(cat)">
+      {{ cat.categoria }}
+    </button>
+  </div>
+
+  <!-- Lista piatti per Mobile -->
+  <div class="menu-mobile-list" *ngIf="isMobile && selectedCategoria">
+    <button class="back-btn" (click)="goBack()">⬅ Torna indietro</button>
+    <h2>{{ selectedCategoria.categoria }}</h2>
+    <div *ngFor="let piatto of selectedCategoria.piatti" class="piatto-card">
+      <h3 (click)="piatto.immagine && toggleImage(piatto)" [class.clickable]="piatto.immagine">
+        {{ piatto.nome }} - {{ piatto.prezzo | currency:'EUR' }}
+      </h3>
+      <p>{{ piatto.descrizione }}</p>
+      <div *ngIf="piatto.showImage" class="piatto-img">
+        <img [src]="piatto.immagine" [alt]="piatto.nome">
+      </div>
+    </div>
+  </div>
+
+  <!-- Lista piatti per Desktop -->
+  <div class="menu-sections" *ngIf="!isMobile">
+    <section *ngFor="let categoria of menuData" [attr.id]="categoria.categoria">
+      <h2>{{ categoria.categoria }}</h2>
+      <div *ngFor="let piatto of categoria.piatti" class="piatto-card">
+        <h3 (click)="piatto.immagine && toggleImage(piatto)" [class.clickable]="piatto.immagine">
+          {{ piatto.nome }} - {{ piatto.prezzo | currency:'EUR' }}
+        </h3>
+        <p>{{ piatto.descrizione }}</p>
+        <div *ngIf="piatto.showImage" class="piatto-img">
+          <img [src]="piatto.immagine" [alt]="piatto.nome">
+        </div>
+      </div>
+    </section>
+  </div>
+
+</div>

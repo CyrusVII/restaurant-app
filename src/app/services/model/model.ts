@@ -33,3 +33,21 @@ export interface HomeData{
     overlayText: string;
   };
 }
+
+//secttion menu
+export interface Piatto {
+  nome: string;
+  descrizione: string;
+  prezzo: number;
+  immagine: string;
+  showImage?: boolean;
+}
+
+export interface CategoriaMenu {
+  categoria: string;
+  piatti: Piatto[];
+}
+
+export interface MenuData {
+  menu: CategoriaMenu[];
+}

@@ -116,6 +116,86 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
+/* menu section */
+.menu-nav {
+    position: sticky;
+    top: 60px;
+    background: rgba(25, 118, 210, 0.95);
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.menu-nav ul {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.menu-nav button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+.menu-nav button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.circle-btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1976d2, #42a5f5);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.circle-btn:hover {
+    transform: scale(1.05);
+}
+
+.back-btn {
+    background: #1976d2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.piatto-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.piatto-card h3.clickable {
+    cursor: pointer;
+    color: #1976d2;
+    text-decoration: underline;
+}
+
+.piatto-img {
+    margin-top: 0.5rem;
+}
+
+.piatto-img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 /* Section styles */
 .section {
     padding: 4rem 0;
