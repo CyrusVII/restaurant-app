@@ -14,7 +14,7 @@ import { ScrollAnimateDirective } from '../../directives/scroll-animate.directiv
   imports: [
     CommonModule,
     ScrollAnimateDirective
-  ] 
+  ]
 })
 export class HomeComponent implements OnInit {
   homeData: HomeData[] = [];

@@ -1,0 +1,318 @@
+/* Lista piatti per Mobile */
+.menu-mobile-list {
+  padding: 1rem 0 3rem 0;
+  min-height: 70vh;
+}
+
+/* Menu container centralizzato */
+.menu-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem 1rem;
+  min-height: calc(100vh - 200px);
+}
+
+/* Menu nav per desktop */
+.menu-nav {
+  position: sticky;
+  top: 60px;
+  background: rgba(25, 118, 210, 0.95);
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.menu-nav ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-nav button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 0.7rem 1.5rem;
+  transition: all 0.3s ease;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.menu-nav button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile navigation */
+.menu-mobile-nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 2rem 1rem 3rem 1rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 20px;
+  margin: 2rem 0 3rem 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.circle-btn {
+  width: 100%;
+  height: 70px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #ff6b35, #ff8c42);
+  color: white;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.25);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  font-size: 1.1rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.circle-btn:hover::before {
+  left: 100%;
+}
+
+.circle-btn::after {
+  content: '→';
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.circle-btn:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 30px rgba(255, 107, 53, 0.35);
+}
+
+.circle-btn:hover::after {
+  transform: translateX(5px);
+}
+
+.circle-btn:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 2px 15px rgba(255, 107, 53, 0.3);
+}
+
+/* Back button */
+.back-btn {
+  background: linear-gradient(135deg, #ff6b35, #ff8c42);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.2);
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.back-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.3);
+}
+
+/* Section titles */
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #1976d2;
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  letter-spacing: 1px;
+  scroll-margin-top: 120px;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(135deg, #1976d2, #42a5f5);
+  border-radius: 2px;
+}
+
+/* Menu sections */
+.menu-sections {
+  max-width: 100%;
+}
+
+/* Piatto cards */
+.piatto-card {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(25, 118, 210, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.piatto-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+  border-color: rgba(25, 118, 210, 0.2);
+}
+
+.piatto-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(135deg, #1976d2, #42a5f5);
+}
+
+/* Piatto header */
+.piatto-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.8rem;
+  gap: 1rem;
+}
+
+.piatto-header.clickable {
+  cursor: pointer;
+}
+
+.piatto-header.clickable:hover .piatto-title-container {
+  color: #1976d2;
+}
+
+.piatto-title-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  transition: color 0.3s ease;
+}
+
+.photo-icon {
+  font-size: 1.2rem;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.piatto-header.clickable:hover .photo-icon {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Piatto title */
+.piatto-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+  line-height: 1.3;
+  transition: color 0.3s ease;
+}
+
+/* Piatto price */
+.piatto-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1976d2;
+  background: rgba(25, 118, 210, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* Piatto description */
+.piatto-description {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+  text-align: justify;
+}
+
+/* Piatto images */
+.piatto-img {
+  margin-top: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.piatto-img img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.piatto-img:hover img {
+  transform: scale(1.05);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .menu-wrapper {
+    padding: 1rem 0.5rem 4rem 0.5rem;
+    min-height: calc(100vh - 150px);
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin: 2.5rem 0 2rem 0;
+  }
+
+  .piatto-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .piatto-price {
+    align-self: flex-start;
+  }
+
+  .piatto-card {
+    margin-bottom: 2rem;
+  }
+
+  .menu-mobile-nav {
+    margin: 1rem 0 2rem 0;
+    padding: 1.5rem 1rem 2rem 1rem;
+  }
+}

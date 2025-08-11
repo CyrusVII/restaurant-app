@@ -7,13 +7,13 @@
           "nome": "Bruschette miste",
           "descrizione": "Pane tostato con pomodoro fresco, basilico e olio extravergine.",
           "prezzo": 6.50,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/br.png"
         },
         {
           "nome": "Cozze alla marinara",
           "descrizione": "Cozze fresche cotte con aglio, prezzemolo e vino bianco.",
           "prezzo": 9.00,
-          "immagine": "assets/images/capri.jpg"
+          "immagine": "assets/capri.png"
         }
       ]
     },
@@ -24,13 +24,13 @@
           "nome": "Spaghetti alle vongole",
           "descrizione": "Spaghetti con vongole fresche, aglio e prezzemolo.",
           "prezzo": 14.00,
-          "immagine": "assets/images/capri.jpg"
+          "immagine": "assets/capri.jpg"
         },
         {
           "nome": "Risotto alla pescatora",
           "descrizione": "Riso con frutti di mare misti e pomodoro fresco.",
           "prezzo": 15.00,
-          "immagine": "assets/images/capri.jpg"
+          "immagine": "assets/capri.jpg"
         }
       ]
     },
@@ -41,13 +41,13 @@
           "nome": "Grigliata mista di pesce",
           "descrizione": "Selezione di pesce fresco alla griglia.",
           "prezzo": 20.00,
-          "immagine": "assets/images/capri.jpg"
+          "immagine": "assets/capri.jpg"
         },
         {
           "nome": "Frittura di calamari",
           "descrizione": "Calamari fritti croccanti serviti con limone.",
           "prezzo": 16.00,
-          "immagine": "assets/images/capri.jpg"
+          "immagine": "assets/capri.jpg"
         }
       ]
     },
@@ -63,8 +63,7 @@
         {
           "nome": "Bologna",
           "descrizione": "Pistacchio e mortadella",
-          "prezzo": 10.00,
-          "immagine": "assets/images/capri.jpg"
+          "prezzo": 10.00
         }
       ]
     },

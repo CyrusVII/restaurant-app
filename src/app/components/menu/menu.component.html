@@ -19,12 +19,16 @@
   <!-- Lista piatti per Mobile -->
   <div class="menu-mobile-list" *ngIf="isMobile && selectedCategoria">
     <button class="back-btn" (click)="goBack()">⬅ Torna indietro</button>
-    <h2>{{ selectedCategoria.categoria }}</h2>
+    <h2 class="section-title">{{ selectedCategoria.categoria }}</h2>
     <div *ngFor="let piatto of selectedCategoria.piatti" class="piatto-card">
-      <h3 (click)="piatto.immagine && toggleImage(piatto)" [class.clickable]="piatto.immagine">
-        {{ piatto.nome }} - {{ piatto.prezzo | currency:'EUR' }}
-      </h3>
-      <p>{{ piatto.descrizione }}</p>
+      <div class="piatto-header" (click)="piatto.immagine && toggleImage(piatto)" [class.clickable]="piatto.immagine">
+        <div class="piatto-title-container">
+          <span class="photo-icon" *ngIf="piatto.immagine">📷</span>
+          <h3 class="piatto-title">{{ piatto.nome }}</h3>
+        </div>
+        <span class="piatto-price">{{ piatto.prezzo | currency:'EUR' }}</span>
+      </div>
+      <p class="piatto-description">{{ piatto.descrizione }}</p>
       <div *ngIf="piatto.showImage" class="piatto-img">
         <img [src]="piatto.immagine" [alt]="piatto.nome">
       </div>
@@ -34,12 +38,16 @@
   <!-- Lista piatti per Desktop -->
   <div class="menu-sections" *ngIf="!isMobile">
     <section *ngFor="let categoria of menuData" [attr.id]="categoria.categoria">
-      <h2>{{ categoria.categoria }}</h2>
+      <h2 class="section-title">{{ categoria.categoria }}</h2>
       <div *ngFor="let piatto of categoria.piatti" class="piatto-card">
-        <h3 (click)="piatto.immagine && toggleImage(piatto)" [class.clickable]="piatto.immagine">
-          {{ piatto.nome }} - {{ piatto.prezzo | currency:'EUR' }}
-        </h3>
-        <p>{{ piatto.descrizione }}</p>
+        <div class="piatto-header" (click)="piatto.immagine && toggleImage(piatto)" [class.clickable]="piatto.immagine">
+          <div class="piatto-title-container">
+            <span class="photo-icon" *ngIf="piatto.immagine">📷</span>
+            <h3 class="piatto-title">{{ piatto.nome }}</h3>
+          </div>
+          <span class="piatto-price">{{ piatto.prezzo | currency:'EUR' }}</span>
+        </div>
+        <p class="piatto-description">{{ piatto.descrizione }}</p>
         <div *ngIf="piatto.showImage" class="piatto-img">
           <img [src]="piatto.immagine" [alt]="piatto.nome">
         </div>
