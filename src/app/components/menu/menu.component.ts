@@ -21,6 +21,9 @@ export class MenuComponent implements OnInit {
 
   // Flag per capire se siamo su mobile o desktop
   isMobile = false;
+  
+  //flag visibilita nav menu
+  showAll = false;
 
   // Salva la categoria selezionata (solo in modalità mobile)
   selectedCategoria: CategoriaMenu | null = null;
@@ -71,5 +74,10 @@ export class MenuComponent implements OnInit {
       window.history.pushState(null, '', window.location.href); // Aggiorna l'URL senza ricaricare la pagina
     }
   }
+
+  toggleShowAll() {
+  this.showAll = !this.showAll;
+  }
+
 }
 

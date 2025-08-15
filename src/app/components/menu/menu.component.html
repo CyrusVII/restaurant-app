@@ -3,11 +3,18 @@
   <!-- Nav categorie per Desktop -->
   <nav class="menu-nav" *ngIf="!isMobile">
     <ul>
-      <li *ngFor="let cat of menuData">
+      <li *ngFor="let cat of menuData | slice:0:(showAll ? menuData.length : 4)">
         <button (click)="selectCategoria(cat)">{{ cat.categoria }}</button>
       </li>
     </ul>
+  
+    <div *ngIf="menuData.length > 4" class="toggle-more">
+      <button (click)="toggleShowAll()">
+        {{ showAll ? 'Mostra meno' : 'Mostra altro' }}
+      </button>
+    </div>
   </nav>
+
 
   <!-- Pulsanti categorie per Mobile -->
   <div class="menu-mobile-nav" *ngIf="isMobile && !selectedCategoria">
