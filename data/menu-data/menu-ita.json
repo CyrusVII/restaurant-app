@@ -1,0 +1,349 @@
+{
+  "menu": [
+    {
+      "categoria": "Fritti",
+      "piatti": [
+        {
+          "nome": "O cuoppo (fritto all'italiana) x2",
+          "descrizione": "Neapolitan Cuoppo per 2 persone — mix di crocchè di patate, arancini e zeppoline.",
+          "prezzo": 12.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Tris Classico",
+          "descrizione": "Montanarine fritte con pomodoro di San Marzano, basilico e parmigiano.",
+          "prezzo": 6.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Frittatine di pasta (2 pz)",
+          "descrizione": "Classica / Alla Nerano (con zucchine) / Siciliana (con melanzane).",
+          "prezzo": 4.50,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Crocchettone in pane panko - Classico",
+          "descrizione": "Jumbo gourmet croquette classico in panko.",
+          "prezzo": 7.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Crocchettone in pane panko - Caprese",
+          "descrizione": "Jumbo gourmet croquette con pomodoro e mozzarella di bufala.",
+          "prezzo": 10.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Crocchettone in pane panko - Nerano",
+          "descrizione": "Jumbo gourmet croquette con zucchine.",
+          "prezzo": 10.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Crocchettone in pane panko - Mortadella e pistacchio",
+          "descrizione": "Jumbo gourmet croquette con mortadella e pistacchio.",
+          "prezzo": 10.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Patate Dippers - Cacio e pepe",
+          "descrizione": "Patate a barchetta condite cacio e pepe.",
+          "prezzo": 7.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Patate Dippers - Cheddar e bacon",
+          "descrizione": "Patate a barchetta con cheddar e bacon.",
+          "prezzo": 7.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Patate Dippers - Würstel",
+          "descrizione": "Patate a barchetta con würstel.",
+          "prezzo": 7.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Patatine",
+          "descrizione": "Patatine fritte.",
+          "prezzo": 6.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Crocché + Frittatina + Zeppolina",
+          "descrizione": "Crocchè di patate, frittatina di pasta e zeppolina salata (1 pz ciascuno).",
+          "prezzo": 2.50,
+          "immagine": "assets/capri.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Antipasti",
+      "piatti": [
+        {
+          "nome": "Tagliere di formaggi e salumi (x2)",
+          "descrizione": "Selezione di formaggi e salumi italiani con pane, miele e marmellata.",
+          "prezzo": 24.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Prosciutto e treccia Sorrentina",
+          "descrizione": "Prosciutto crudo servito con treccia di mozzarella fresca.",
+          "prezzo": 10.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Insalata caprese",
+          "descrizione": "Mozzarella fresca, pomodoro, basilico, olio EVO e origano.",
+          "prezzo": 11.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Carpaccio di manzo",
+          "descrizione": "Fettine di manzo crudo con pomodorini, scaglie di parmigiano e olio EVO.",
+          "prezzo": 15.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Parmigiana di melanzane",
+          "descrizione": "Melanzane al forno con sugo di pomodoro, mozzarella, parmigiano e basilico.",
+          "prezzo": 12.00,
+          "immagine": "assets/capri.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Piatti di Mare",
+      "piatti": [
+        {
+          "nome": "Estate Blu",
+          "descrizione": "Fior di latte, peperoncini di fiume, datterini gialli e rossi, cozze, pecorino romano e basilico.",
+          "prezzo": 14.90,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Polpo scottato",
+          "descrizione": "Polpo grigliato su crema di patate al limone.",
+          "prezzo": 16.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Soutè di cozze e vongole",
+          "descrizione": "Cozze e vongole saltate in padella.",
+          "prezzo": 15.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Spaghetto con vongole",
+          "descrizione": "Spaghetti con vongole e pomodorini freschi.",
+          "prezzo": 18.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Gnocchi gamberetti e zucchine",
+          "descrizione": "Gnocchi di patate con gamberetti e zucchine saltate.",
+          "prezzo": 16.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Frittura di gamberi e calamari",
+          "descrizione": "Gamberi e calamari fritti.",
+          "prezzo": 20.00,
+          "immagine": "assets/capri.jpg"
+        },
+        {
+          "nome": "Orata o Spigola alla griglia",
+          "descrizione": "Orata o spigola alla griglia con contorno.",
+          "prezzo": 30.00,
+          "immagine": "assets/capri.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Pizze della Tradizione",
+      "piatti": [
+        {
+          "nome": "Margherita",
+          "descrizione": "Pelati selezione Capri Blu, fior di latte di Agerola, basilico e olio EVO.",
+          "prezzo": 6.90,
+          "immagine": "assets/margherita.jpg"
+        },
+        {
+          "nome": "Marinara",
+          "descrizione": "Pelati selezione Capri Blu, origano, aglio e olio EVO.",
+          "prezzo": 5.90,
+          "immagine": "assets/marinara.jpg"
+        },
+        {
+          "nome": "Napoletana",
+          "descrizione": "Pelati selezione Capri Blu, origano di montagna, aglio, olive nere, alici di Cetara, basilico e olio EVO.",
+          "prezzo": 7.00,
+          "immagine": "assets/napoletana.jpg"
+        },
+        {
+          "nome": "Napoletana rivisitata",
+          "descrizione": "Pomodoro giallo saltato in padella, origano, olive nere, datterini rossi, aglio, basilico e olio EVO.",
+          "prezzo": 11.50,
+          "immagine": "assets/napoletana_rivisitata.jpg"
+        },
+        {
+          "nome": "Bufalina",
+          "descrizione": "Pelati selezione Capri Blu, mozzarella di bufala campana D.O.P., basilico e olio EVO.",
+          "prezzo": 9.00,
+          "immagine": "assets/bufalina.jpg"
+        },
+        {
+          "nome": "Cosacca",
+          "descrizione": "Pelati selezione Capri Blu, pecorino romano, basilico e olio EVO.",
+          "prezzo": 5.90,
+          "immagine": "assets/cosacca.jpg"
+        },
+        {
+          "nome": "Provola e Pepe",
+          "descrizione": "Pelati selezione Capri Blu, provola di Agerola, pepe macinato, basilico e olio EVO.",
+          "prezzo": 7.90,
+          "immagine": "assets/provola_pepe.jpg"
+        },
+        {
+          "nome": "Diavola",
+          "descrizione": "Pelati selezione Capri Blu, fior di latte di Agerola, spianata piccante, basilico e olio EVO.",
+          "prezzo": 8.90,
+          "immagine": "assets/diavola.jpg"
+        },
+        {
+          "nome": "Focaccia Caprese",
+          "descrizione": "Pomodoro di Sorrento, mozzarella di bufala campana D.O.P., origano di montagna, basilico e olio EVO.",
+          "prezzo": 10.00,
+          "immagine": "assets/focaccia_caprese.jpg"
+        },
+        {
+          "nome": "Capricciosa",
+          "descrizione": "Pelati selezione Capri Blu, fior di latte di Agerola, salame Napoli, prosciutto cotto, funghi champignon, carciofini, olive nere, basilico e olio EVO.",
+          "prezzo": 9.90,
+          "immagine": "assets/capricciosa.jpg"
+        },
+        {
+          "nome": "Siciliana",
+          "descrizione": "Provola affumicata di Agerola, melanzane a funghetto, datterino rosso, salsiccia sbriciolata, caciotta di pecora, basilico e olio EVO.",
+          "prezzo": 8.90,
+          "immagine": "assets/siciliana.jpg"
+        },
+        {
+          "nome": "Ortolana",
+          "descrizione": "Fior di latte di Agerola, melanzane a funghetto, peperoni, chips di zucchine, basilico e olio EVO.",
+          "prezzo": 8.90,
+          "immagine": "assets/ortolana.jpg"
+        },
+        {
+          "nome": "Wrustel & Patatine",
+          "descrizione": "Fior di latte di Agerola, wrustel, patatine fritte e olio EVO.",
+          "prezzo": 8.00,
+          "immagine": "assets/wrustel_patatine.jpg"
+        },
+        {
+          "nome": "Crocco Pizza",
+          "descrizione": "Fior di latte di Agerola, panna, prosciutto cotto, crocchè, basilico e olio EVO.",
+          "prezzo": 10.00,
+          "immagine": "assets/crocco_pizza.jpg"
+        },
+        {
+          "nome": "Patanella",
+          "descrizione": "Provola di Agerola, patate al forno, salsiccia sbriciolata, basilico e olio EVO.",
+          "prezzo": 10.00,
+          "immagine": "assets/patanella.jpg"
+        },
+        {
+          "nome": "5 Formaggi",
+          "descrizione": "Provola di Agerola, gorgonzola, ricotta fior di Fruscella, pecorino romano, scaglie di provolone del monaco, basilico e olio EVO.",
+          "prezzo": 11.00,
+          "immagine": "assets/5_formaggi.jpg"
+        },
+        {
+          "nome": "4 Pomodori",
+          "descrizione": "Fior di latte di Agerola, pelati selezione Capri Blu, pomodoro giallo saltato in padella, datterino giallo, datterino rosso, basilico e olio EVO.",
+          "prezzo": 9.90,
+          "immagine": "assets/4_pomodori.jpg"
+        },
+        {
+          "nome": "Tonno e Cipolla",
+          "descrizione": "Cipolla stracotta, fior di latte di Agerola, olive nere, filetti di tonno, basilico e olio EVO.",
+          "prezzo": 11.00,
+          "immagine": "assets/tonno_cipolla.jpg"
+        },
+        {
+          "nome": "Ripieno Classico",
+          "descrizione": "Ripieno al forno con pelati selezione Capri Blu, ricotta fior di Fruscella, provola di Agerola, salame Napoli, prosciutto cotto, pecorino, basilico e olio EVO.",
+          "prezzo": 9.50,
+          "immagine": "assets/ripieno_classico.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Pizze Fritte",
+      "piatti": [
+        {"nome": "Montanara Classica", "descrizione": "Pelati selezione Capri Blu, mozzarella di bufala campana D.O.P., parmigiano reggiano, basilico e olio EVO.", "prezzo": 10.00, "immagine": "assets/montanara_classica.jpg"},
+        {"nome": "Montanara Sorrento", "descrizione": "Montanara doppia cottura con pomodoro giallo saltato in padella, mozzarella di bufala campana D.O.P., fonduta di parmigiano 24 mesi, prosciutto crudo di Parma, noci di Sorrento, basilico e olio EVO.", "prezzo": 13.90, "immagine": "assets/montanara_sorrento.jpg"},
+        {"nome": "Ripieno Classico Fritto", "descrizione": "Pelati selezione Capri Blu, ricotta fior di Fruscella, provola di Agerola, salame Napoli, prosciutto cotto, pepe macinato, pecorino.", "prezzo": 9.50, "immagine": "assets/ripieno_classico_fritto.jpg"},
+        {"nome": "Ripieno Napoletano Fritto", "descrizione": "Pelati selezione Capri Blu, ricotta fior di Fruscella, provola di Agerola, cicoli napoletani, pepe macinato.", "prezzo": 9.50, "immagine": "assets/ripieno_napoletano_fritto.jpg"}
+      ]
+    },
+    {
+      "categoria": "Firmate Capri Blu Sorrento",
+      "piatti": [
+        {"nome": "Capri Blu 2.0", "descrizione": "Ripieno al forno con ricotta fior di Fruscella, fior di latte di Agerola, rucola, datterino rosso e giallo, prosciutto crudo di Parma, fonduta di parmigiano 24 mesi e olio EVO.", "prezzo": 12.00, "immagine": "assets/capri_blu_2_0.jpg"},
+        {"nome": "Nerano", "descrizione": "Crema di zucchina, provola di Agerola, parmigiano reggiano, chips di zucchine, scaglie di provolone del monaco, basilico e olio EVO.", "prezzo": 12.00, "immagine": "assets/nerano.jpg"},
+        {"nome": "Arrosto Blu", "descrizione": "Fior di latte di Agerola, datterino giallo, prosciutto crudo di Parma, stracciata di bufala, basilico e olio EVO.", "prezzo": 12.90, "immagine": "assets/arrosto_blu.jpg"},
+        {"nome": "Pulecenella", "descrizione": "Provola di Agerola, ricotta fior di Fruscella, pancetta arrotolata, pepe macinato, zeste di limone di Sorrento, basilico e olio EVO.", "prezzo": 10.00, "immagine": "assets/pulecenella.jpg"},
+        {"nome": "Sole di Napoli", "descrizione": "Pomodoro giallo saltato in padella, bufala campana D.O.P., scaglie di provolone del monaco, basilico e olio EVO.", "prezzo": 10.90, "immagine": "assets/sole_di_napoli.jpg"},
+        {"nome": "Centro Storico Napoli", "descrizione": "Cornicione ripieno di ricotta fior di Fruscella, ombra di pelati selezione Capri Blu, provola di Agerola, cicoli napoletani, pepe macinato, basilico e olio EVO.", "prezzo": 11.00, "immagine": "assets/centro_storico_napoli.jpg"},
+        {"nome": "Bologna", "descrizione": "Fior di latte di Agerola, mortadella I.G.P., pesto di pistacchio di Bronte, granella di pistacchio, basilico e olio EVO.", "prezzo": 10.90, "immagine": "assets/bologna.jpg"},
+        {"nome": "Cacio e Pepe", "descrizione": "Provola affumicata di Agerola, pancetta arrotolata, pepe macinato, sbriciolata di tarallo napoletano, crema Cacio e Pepe, olio EVO e basilico.", "prezzo": 12.90, "immagine": "assets/cacio_e_pepe.jpg"},
+        {"nome": "Pulled Pork", "descrizione": "Cipolla stracotta, pulled pork, fior di latte di Agerola, cipolla croccante, basilico e olio EVO.", "prezzo": 11.00, "immagine": "assets/pulled_pork.jpg"},
+        {"nome": "Faraglione", "descrizione": "Ripieno al forno con scarola riccia, alici di Cetara, olive nere, fior di latte di Agerola, pecorino romano e olio EVO.", "prezzo": 10.90, "immagine": "assets/faraglione.jpg"},
+        {"nome": "San Gennaro", "descrizione": "Ripieno in crosta di pecorino con parmigiana di melanzane, fior di latte di Agerola, basilico e olio EVO.", "prezzo": 11.00, "immagine": "assets/san_gennaro.jpg"}
+      ]
+    },
+    {
+      "categoria": "Selezion Carro’",
+      "piatti": [
+        {"nome": "Margherita", "descrizione": "Pelati selezione Capri Blu, fior di latte di Agerola, basilico e olio EVO.", "prezzo": 7.90, "immagine": "assets/margherita_carro.jpg"},
+        {"nome": "Napoletana", "descrizione": "Pelati selezione Capri Blu, origano di montagna, aglio, olive nere, alici di Cetara, basilico e olio EVO.", "prezzo": 8.00, "immagine": "assets/napoletana_carro.jpg"},
+        {"nome": "Provola e Pepe", "descrizione": "Pelati selezione Capri Blu, provola di Agerola, pepe macinato, basilico e olio EVO.", "prezzo": 8.90, "immagine": "assets/provola_pepe_carro.jpg"},
+        {"nome": "Diavola", "descrizione": "Pelati selezione Capri Blu, fior di latte di Agerola, spianata piccante, basilico e olio EVO.", "prezzo": 9.90, "immagine": "assets/diavola_carro.jpg"},
+        {"nome": "Pulecenella", "descrizione": "Provola di Agerola, ricotta di fior di Fruscella, pancetta arrotolata, pepe macinato, zeste di limone di Sorrento, basilico e olio EVO.", "prezzo": 11.00, "immagine": "assets/pulecenella_carro.jpg"},
+        {"nome": "Sole di Napoli", "descrizione": "Pomodoro giallo saltato in padella, bufala campana D.O.P., scaglie di provolone del monaco, basilico e olio EVO.", "prezzo": 11.90, "immagine": "assets/sole_di_napoli_carro.jpg"}
+      ]
+    },
+    {
+      "categoria": "Drinks & Beverages",
+      "piatti": [
+        {"nome": "Soft Drink & Acqua", "descrizione": "Bibite analcoliche e acqua.", "prezzo": 2.50, "immagine": "assets/soft_drink_acqua.jpg"},
+        {"nome": "Birra alla Spina Bionda 20cl", "descrizione": "Birra bionda alla spina 20 cl.", "prezzo": 4.00, "immagine": "assets/birra_bionda_20.jpg"},
+        {"nome": "Birra alla Spina Bionda 40cl", "descrizione": "Birra bionda alla spina 40 cl.", "prezzo": 6.00, "immagine": "assets/birra_bionda_40.jpg"},
+        {"nome": "Birra alla Spina Rossa 20cl", "descrizione": "Birra rossa alla spina 20 cl.", "prezzo": 4.00, "immagine": "assets/birra_rossa_20.jpg"},
+        {"nome": "Birra alla Spina Rossa 40cl", "descrizione": "Birra rossa alla spina 40 cl.", "prezzo": 6.00, "immagine": "assets/birra_rossa_40.jpg"},
+        {"nome": "Vino Locale Calice", "descrizione": "Vino locale bianco, rosso o prosecco - calice 150ml.", "prezzo": 6.00, "immagine": "assets/vino_calice.jpg"},
+        {"nome": "Vino Locale 500ml", "descrizione": "Vino locale bianco, rosso o prosecco - bottiglia 500ml.", "prezzo": 15.00, "immagine": "assets/vino_500.jpg"},
+        {"nome": "Vino Locale 750ml", "descrizione": "Vino locale bianco, rosso o prosecco - bottiglia 750ml.", "prezzo": 20.00, "immagine": "assets/vino_750.jpg"},
+        {"nome": "Vino Locale 1L", "descrizione": "Vino locale bianco, rosso o prosecco - bottiglia 1 litro.", "prezzo": 25.00, "immagine": "assets/vino_1l.jpg"},
+        {"nome": "1L di Vino con le Pesche", "descrizione": "Vino bianco con pesche a pezzi, servito in caraffa da 1 litro.", "prezzo": 25.00, "immagine": "assets/vino_pesche.jpg"},
+        {"nome": "Aperol Spritz", "descrizione": "Cocktail a base di Aperol, prosecco e soda.", "prezzo": 9.00, "immagine": "assets/aperol_spritz.jpg"},
+        {"nome": "Limoncello Spritz", "descrizione": "Spritz rinfrescante con liquore al limone della Costiera Amalfitana.", "prezzo": 7.00, "immagine": "assets/limoncello_spritz.jpg"},
+        {"nome": "Blu Spritz", "descrizione": "Spritz con liquore blu caratteristico.", "prezzo": 10.00, "immagine": "assets/blu_spritz.jpg"}
+      ]
+    },
+    {
+      "categoria": "Dessert",
+      "piatti": [
+        {"nome": "Tiramisù", "descrizione": "Classico tiramisù italiano con crema al mascarpone e caffè.", "prezzo": 6.00, "immagine": "assets/tiramisu.jpg"},
+        {"nome": "Delizia al Limone", "descrizione": "Dolce tipico di Sorrento con pan di spagna e crema al limone.", "prezzo": 6.00, "immagine": "assets/delizia_limone.jpg"},
+        {"nome": "Babà", "descrizione": "Babà napoletano soffice imbevuto di sciroppo al rum.", "prezzo": 6.00, "immagine": "assets/baba.jpg"},
+        {"nome": "Pizza con la Nutella", "descrizione": "Pizza dolce con crema di Nutella.", "prezzo": 8.00, "immagine": "assets/pizza_nutella.jpg"},
+        {"nome": "Black & White Pizza", "descrizione": "Pizza dolce con doppio cioccolato.", "prezzo": 10.00, "immagine": "assets/black_white_pizza.jpg"},
+        {"nome": "\"Straccetti\" alla Nutella x2", "descrizione": "Straccetti di pasta fritta con Nutella, porzione per due.", "prezzo": 8.00, "immagine": "assets/straccetti_nutella.jpg"},
+        {"nome": "Dolce del Giorno", "descrizione": "Dessert del giorno scelto dallo chef.", "prezzo": 6.00, "immagine": "assets/dolce_del_giorno.jpg"}
+      ]
+    }
+  ]
+}
+
