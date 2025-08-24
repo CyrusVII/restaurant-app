@@ -1,0 +1,331 @@
+/* Info page styles */
+.info-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 2rem 4rem 2rem;
+  min-height: calc(100vh - 200px);
+}
+
+.info-wrapper h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1976d2;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.info-wrapper h1::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(135deg, #1976d2, #42a5f5);
+  border-radius: 2px;
+}
+
+.info-wrapper>p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 3rem;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+/* Sezioni */
+.info-wrapper section {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 8px 32px rgba(25, 118, 210, 0.1);
+  border: 1px solid rgba(25, 118, 210, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-wrapper section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(135deg, #1976d2, #42a5f5);
+}
+
+.info-wrapper section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 45px rgba(25, 118, 210, 0.15);
+  border-color: rgba(25, 118, 210, 0.2);
+}
+
+/* Titoli delle sezioni */
+.info-wrapper section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Orari di apertura */
+.orari ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.orari li {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f8f9fa 100%);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #1976d2;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.orari li:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.1);
+}
+
+.orari strong {
+  color: #1976d2;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.3rem;
+  text-transform: capitalize;
+}
+
+/* Mappa */
+.mappa iframe {
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.mappa iframe:hover {
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Contatti */
+.contatti p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+.contatti strong {
+  color: #1976d2;
+  font-weight: 600;
+  min-width: 100px;
+  display: inline-block;
+}
+
+.contatti a {
+  color: #ff6b35;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+}
+
+.contatti a:hover {
+  background: rgba(255, 107, 53, 0.1);
+  color: #ff8c42;
+  transform: translateX(3px);
+}
+
+/* Social */
+.social ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social li {
+  flex: 1;
+  min-width: 150px;
+}
+
+.social a {
+  display: block;
+  background: linear-gradient(135deg, #ff6b35, #ff8c42);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.25);
+  position: relative;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+
+.social a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.social a:hover::before {
+  left: 100%;
+}
+
+.social a:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 30px rgba(255, 107, 53, 0.35);
+}
+
+.social a:active {
+  transform: translateY(-1px) scale(0.98);
+  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.3);
+}
+
+/* Pulsante WhatsApp */
+.whatsapp {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.whatsapp button {
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: white;
+  border: none;
+  padding: 1.2rem 3rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.3);
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.whatsapp button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.whatsapp button:hover::before {
+  left: 100%;
+}
+
+.whatsapp button:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 50px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp button:active {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.35);
+}
+
+/* Animazioni */
+.info-wrapper section {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.info-wrapper section:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.info-wrapper section:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.info-wrapper section:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.info-wrapper section:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.info-wrapper section:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .info-wrapper {
+    padding: 2rem 1rem 3rem 1rem;
+  }
+
+  .info-wrapper h1 {
+    font-size: 2.2rem;
+  }
+
+  .info-wrapper>p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .info-wrapper section {
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .info-wrapper section h2 {
+    font-size: 1.5rem;
+  }
+
+  .orari ul {
+    grid-template-columns: 1fr;
+  }
+
+  .social ul {
+    flex-direction: column;
+  }
+
+  .whatsapp button {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+  }
+
+  .contatti strong {
+    min-width: auto;
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+}

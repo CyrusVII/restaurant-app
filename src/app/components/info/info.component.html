@@ -1,1 +1,50 @@
-<p>info works!</p>
+<div class="info-wrapper container" *ngIf="infoData">
+
+  <!-- Titolo e descrizione presi dal JSON -->
+  <h1>{{ infoData.testo.titolo }}</h1>
+  <p>{{ infoData.testo.descrizione }}</p>
+
+  <!-- Pulsante WhatsApp -->
+  <div class="whatsapp">
+    <button (click)="prenotaWhatsApp()">💬 Prenota su WhatsApp</button>
+  </div>
+
+  <!-- Orari di apertura -->
+  <section class="orari">
+    <h2>🕒 Orari di apertura</h2>
+    <ul>
+      <li *ngFor="let entry of (infoData.orari | keyvalue: ordinaGiorni)">
+        <strong>{{ entry.key }}:</strong> {{ entry.value }}
+      </li>
+    </ul>
+  </section>
+
+  <!-- Mappa Google -->
+  <section class="mappa">
+    <h2>📍 Dove siamo</h2>
+    <iframe width="100%" height="500" frameborder="0" style="border:0" [src]="safeMapUrl" allowfullscreen>
+    </iframe>
+
+  </section>
+
+  <!-- Contatti -->
+  <section class="contatti">
+    <h2>📞 Contatti</h2>
+    <p><strong>Indirizzo:</strong> {{ infoData.indirizzo }}</p>
+    <p><strong>Telefono:</strong> <a [href]="'tel:' + infoData.telefono">{{ infoData.telefono }}</a></p>
+    <p><strong>Email:</strong> <a [href]="'mailto:' + infoData.email">{{ infoData.email }}</a></p>
+  </section>
+
+  <!-- Social -->
+  <section class="social">
+    <h2>🌐 Seguici</h2>
+    <ul>
+      <li *ngFor="let social of (infoData.social | keyvalue)">
+        <a [href]="social.value" target="_blank">{{ social.key | titlecase }}</a>
+      </li>
+    </ul>
+  </section>
+
+
+
+</div>

@@ -34,7 +34,7 @@ export interface HomeData{
   };
 }
 
-//secttion menu
+//section menu
 export interface Piatto {
   nome: string;
   descrizione: string;
@@ -50,4 +50,25 @@ export interface CategoriaMenu {
 
 export interface MenuData {
   menu: CategoriaMenu[];
+}
+
+//section info
+export interface InfoData {
+  testo: {
+    titolo: string;
+    descrizione: string;
+  };
+  indirizzo: string;
+  telefono: string;
+  email: string;
+  whatsApp?: string; 
+  orari: {
+    [key: string]: string; 
+  };
+  social: {
+    [key: string]: string; 
+  };
+  mappa: {
+    embedUrl: string;
+  };
 }
