@@ -7,73 +7,73 @@
           "nome": "O cuoppo (fritto all'italiana) x2",
           "descrizione": "Neapolitan Cuoppo per 2 persone — mix di crocchè di patate, arancini e zeppoline.",
           "prezzo": 12.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/ocuoppo.png"
         },
         {
           "nome": "Tris Classico",
           "descrizione": "Montanarine fritte con pomodoro di San Marzano, basilico e parmigiano.",
           "prezzo": 6.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Frittatine di pasta (2 pz)",
           "descrizione": "Classica / Alla Nerano (con zucchine) / Siciliana (con melanzane).",
           "prezzo": 4.50,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Crocchettone in pane panko - Classico",
           "descrizione": "Jumbo gourmet croquette classico in panko.",
           "prezzo": 7.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Crocchettone in pane panko - Caprese",
           "descrizione": "Jumbo gourmet croquette con pomodoro e mozzarella di bufala.",
           "prezzo": 10.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Crocchettone in pane panko - Nerano",
           "descrizione": "Jumbo gourmet croquette con zucchine.",
           "prezzo": 10.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Crocchettone in pane panko - Mortadella e pistacchio",
           "descrizione": "Jumbo gourmet croquette con mortadella e pistacchio.",
           "prezzo": 10.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Patate Dippers - Cacio e pepe",
           "descrizione": "Patate a barchetta condite cacio e pepe.",
           "prezzo": 7.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Patate Dippers - Cheddar e bacon",
           "descrizione": "Patate a barchetta con cheddar e bacon.",
           "prezzo": 7.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Patate Dippers - Würstel",
           "descrizione": "Patate a barchetta con würstel.",
           "prezzo": 7.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Patatine",
           "descrizione": "Patatine fritte.",
           "prezzo": 6.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Crocché + Frittatina + Zeppolina",
           "descrizione": "Crocchè di patate, frittatina di pasta e zeppolina salata (1 pz ciascuno).",
           "prezzo": 2.50,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         }
       ]
     },
@@ -84,31 +84,31 @@
           "nome": "Tagliere di formaggi e salumi (x2)",
           "descrizione": "Selezione di formaggi e salumi italiani con pane, miele e marmellata.",
           "prezzo": 24.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Prosciutto e treccia Sorrentina",
           "descrizione": "Prosciutto crudo servito con treccia di mozzarella fresca.",
           "prezzo": 10.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Insalata caprese",
           "descrizione": "Mozzarella fresca, pomodoro, basilico, olio EVO e origano.",
           "prezzo": 11.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Carpaccio di manzo",
           "descrizione": "Fettine di manzo crudo con pomodorini, scaglie di parmigiano e olio EVO.",
           "prezzo": 15.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Parmigiana di melanzane",
           "descrizione": "Melanzane al forno con sugo di pomodoro, mozzarella, parmigiano e basilico.",
           "prezzo": 12.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         }
       ]
     },
@@ -119,43 +119,43 @@
           "nome": "Estate Blu",
           "descrizione": "Fior di latte, peperoncini di fiume, datterini gialli e rossi, cozze, pecorino romano e basilico.",
           "prezzo": 14.90,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Polpo scottato",
           "descrizione": "Polpo grigliato su crema di patate al limone.",
           "prezzo": 16.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Soutè di cozze e vongole",
           "descrizione": "Cozze e vongole saltate in padella.",
           "prezzo": 15.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Spaghetto con vongole",
           "descrizione": "Spaghetti con vongole e pomodorini freschi.",
           "prezzo": 18.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Gnocchi gamberetti e zucchine",
           "descrizione": "Gnocchi di patate con gamberetti e zucchine saltate.",
           "prezzo": 16.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Frittura di gamberi e calamari",
           "descrizione": "Gamberi e calamari fritti.",
           "prezzo": 20.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         },
         {
           "nome": "Orata o Spigola alla griglia",
           "descrizione": "Orata o spigola alla griglia con contorno.",
           "prezzo": 30.00,
-          "immagine": "assets/capri.jpg"
+          "immagine": "assets/img/"
         }
       ]
     },

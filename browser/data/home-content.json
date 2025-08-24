@@ -8,7 +8,7 @@
         "Generazione dopo generazione, abbiamo custodito le ricette di famiglia, portando avanti un'eredità fatta di sapori autentici e accoglienza calorosa."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Interno storico del ristorante",
         "overlayTitle": "1985 - L'inizio di un sogno",
         "overlayText": "La prima sede del ristorante con i tavoli originali"
@@ -21,7 +21,7 @@
         "Il nostro segreto? L'impasto viene lavorato a mano per almeno 15 minuti, garantendo una consistenza perfetta."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Piatto di pasta fresca",
         "overlayTitle": "Pasta Fatta in Casa",
         "overlayText": "Prepariamo la pasta fresca ogni giorno"
@@ -34,7 +34,7 @@
         "Offriamo solo ingredienti freschi, lavorati il giorno stesso per portare il mare direttamente nel piatto."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Piatto di pesce fresco",
         "overlayTitle": "Dal Mare alla Tavola",
         "overlayText": "Pescato del giorno selezionato con cura"
@@ -47,7 +47,7 @@
         "Utilizziamo solo legna di ulivo e farine macinate a pietra, per un risultato croccante e profumato."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Forno a legna acceso",
         "overlayTitle": "Tradizione Napoletana",
         "overlayText": "Pizza cotta nel forno a legna"
@@ -60,7 +60,7 @@
         "Usiamo solo ingredienti naturali, come limoni di Sorrento e ricotta fresca del caseificio locale."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Dolci tradizionali napoletani",
         "overlayTitle": "Sapori Autentici",
         "overlayText": "Dolci artigianali con ingredienti locali"
@@ -73,7 +73,7 @@
         "Dalle colline del Vesuvio ai vigneti della Costiera, scegliamo solo produttori locali rispettosi della tradizione."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Bottiglie di vino in cantina",
         "overlayTitle": "Vini Selezionati",
         "overlayText": "La nostra cantina valorizza il territorio"
@@ -86,7 +86,7 @@
         "Ogni cliente è parte della nostra famiglia, e ci impegniamo a farlo sentire come a casa."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Sala del ristorante con clienti",
         "overlayTitle": "Come a Casa",
         "overlayText": "Ospitalità calorosa e autentica"
@@ -99,7 +99,7 @@
         "Primavera, estate, autunno e inverno: ogni piatto ha il suo momento speciale."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Verdure fresche di stagione",
         "overlayTitle": "Cucina Stagionale",
         "overlayText": "Ingredienti freschi ogni mese"
@@ -112,7 +112,7 @@
         "I nostri corsi sono aperti a tutti: dai bambini curiosi ai turisti innamorati della cucina italiana."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Corso di cucina in corso",
         "overlayTitle": "Impara con Noi",
         "overlayText": "Corsi per scoprire i segreti della nostra cucina"
@@ -125,7 +125,7 @@
         "Venire da noi significa immergersi in un'esperienza autentica, dove ogni morso racconta una storia."
       ],
       "image": {
-        "src": "assets/capri.png",
+        "src": "assets/img/capri.png",
         "alt": "Tavola imbandita",
         "overlayTitle": "Esperienza Gastronomica",
         "overlayText": "Un viaggio attraverso la tradizione"
