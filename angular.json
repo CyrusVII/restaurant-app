@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "resturant-app": {
+    "restaurant-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -27,7 +27,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/resturant-app",
+            "outputPath": "dist/restaurant-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "resturant-app:build:production"
+              "buildTarget": "restaurant-app:build:production"
             },
             "development": {
-              "buildTarget": "resturant-app:build:development"
+              "buildTarget": "restaurant-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -105,7 +105,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/restaurant-app/",
+            "dir": "dist/browser"
+          }
         }
       }
     }
