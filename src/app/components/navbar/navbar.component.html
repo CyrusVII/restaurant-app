@@ -6,4 +6,13 @@
       </li>
     </ul>
   </div>
+
+  <!-- Sezione cambio lingua -->
+  <div class="language-switcher">
+    <button *ngFor="let lang of langs" (click)="switchLang(lang.code)" [class.active]="lang.code === currentLang">
+      {{ lang.name }}
+    </button>
+  </div>
+
+
 </nav>

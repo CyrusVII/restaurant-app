@@ -2,7 +2,12 @@
   "navbar": [
     { "label": "Home", "link": "home" },
     { "label": "Menu", "link": "menu" },
-    { "label": "Contatti", "link": "contatti" }
+    { "label": "Info", "link": "info" }
+  ],
+  "lang": [
+    { "code": "it", "name": "Italiano" },
+    { "code": "en", "name": "English" },
+    { "code": "es", "name": "Español" }
   ],
   "footer": {
     "contatti": {

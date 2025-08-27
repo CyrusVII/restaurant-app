@@ -1,0 +1,26 @@
+{
+  "testo": {
+    "titolo": "Contact Us",
+    "descrizione": "Here you can find all the useful information: address, opening hours, map to reach us, and our social channels."
+  },
+  "indirizzo": "Via Roma 123, Naples",
+  "telefono": "+39 081 1234567",
+  "email": "info@mareazzurro.it",
+  "whatsApp": "",
+  "orari": {
+    "Monday": "Closed",
+    "Tuesday": "12:00 - 23:00",
+    "Wednesday": "12:00 - 23:00",
+    "Thursday": "12:00 - 23:00",
+    "Friday": "12:00 - 00:00",
+    "Saturday": "12:00 - 00:00",
+    "Sunday": "12:00 - 23:00"
+  },
+  "social": {
+    "facebook": "https://facebook.com/mareazzurro",
+    "instagram": "https://instagram.com/mareazzurro"
+  },
+  "mappa": {
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.07693804238!2d14.375902676410218!3d40.62486854294453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b9fede1f385c1%3A0xf444fdd979e6e96!2sCapri%20Blu%20Sorrento%20-%20Pizzeria%20e%20Trattoria!5e1!3m2!1sit!2sit!4v1756026546065!5m2!1sit!2sit"
+  }
+}

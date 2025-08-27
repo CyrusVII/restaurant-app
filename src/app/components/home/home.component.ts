@@ -22,11 +22,9 @@ export class HomeComponent implements OnInit {
   constructor(private homeService: HomeService) {
   }
 
-  ngOnInit(): void {
-    this.homeService.getHomeLinks().subscribe((response) => {
-      this.homeData = response.sections; 
-    }, (error) => {
-      console.error('Error fetching home data:', error);
+  ngOnInit() {
+    this.homeService.getHomeContent().subscribe(data => {
+      this.homeData = data.sections;
     });
   }
 }

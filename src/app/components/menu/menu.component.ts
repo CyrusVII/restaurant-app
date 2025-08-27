@@ -9,19 +9,18 @@ import { MenuService } from '../../services/menu.service';
   selector: 'app-menu', // Nome del componente da usare nell'HTML <app-menu>
   standalone: true, // Dichiarazione come componente standalone
   imports: [
-    CommonModule // Importa le direttive Angular base (ngIf, ngFor, ecc.)
+    CommonModule, // Importa le direttive Angular base (ngIf, ngFor, ecc.)
   ],
   templateUrl: './menu.component.html', // File HTML associato
-  styleUrl: './menu.component.css' // File CSS associato
+  styleUrl: './menu.component.css', // File CSS associato
 })
 export class MenuComponent implements OnInit {
-  
   // Array che conterrà le categorie e i piatti del menu
   menuData: CategoriaMenu[] = [];
 
   // Flag per capire se siamo su mobile o desktop
   isMobile = false;
-  
+
   //flag visibilita nav menu
   showAll = false;
 
@@ -29,7 +28,7 @@ export class MenuComponent implements OnInit {
   selectedCategoria: CategoriaMenu | null = null;
 
   // Iniettiamo il servizio che recupera i dati del menu
-  constructor(private menuService: MenuService) { }
+  constructor(private menuService: MenuService) {}
 
   // Metodo chiamato quando il componente viene inizializzato
   ngOnInit() {
@@ -61,14 +60,16 @@ export class MenuComponent implements OnInit {
       this.selectedCategoria = categoria;
     } else {
       // Su desktop: facciamo lo scroll fluido fino alla sezione corrispondente
-      document.getElementById(categoria.categoria)?.scrollIntoView({ behavior: 'smooth' });
+      document
+        .getElementById(categoria.categoria)
+        ?.scrollIntoView({ behavior: 'smooth' });
     }
   }
 
   // Torna alla lista delle categorie (solo su mobile)
   goBack() {
     this.selectedCategoria = null;
-    
+
     // Ritorna ai bottoni delle categorie quando si clicca su "Indietro" dal browser
     if (this.isMobile) {
       window.history.pushState(null, '', window.location.href); // Aggiorna l'URL senza ricaricare la pagina
@@ -76,8 +77,6 @@ export class MenuComponent implements OnInit {
   }
 
   toggleShowAll() {
-  this.showAll = !this.showAll;
+    this.showAll = !this.showAll;
   }
-
 }
-

@@ -4,6 +4,12 @@ export interface NavbarLink {
   link: string;
 }
 
+//lang model interface
+export interface LangOption {
+  code: string;
+  name: string;
+}
+
 //footer model interfaces
 export interface SocialLink {
   label: string;
