@@ -1,0 +1,43 @@
+{
+  "navbar": [
+    { "label": "Home", "link": "home" },
+    { "label": "Menu", "link": "menu" },
+    { "label": "Info", "link": "info" }
+  ],
+  "lang": [
+    { "code": "it", "name": "Italian" },
+    { "code": "en", "name": "English" },
+    { "code": "es", "name": "Spanish" }
+  ],
+  "footer": {
+    "contatti": {
+      "title": "Contacts",
+      "lines": [
+        "Via del Mare, 123",
+        "80067 Sorrento (NA)",
+        "Tel: 081 123 4567",
+        "info@mareazzurro.it"
+      ]
+    },
+    "orari": {
+      "title": "Opening Hours",
+      "lines": [
+        "Tuesday - Sunday",
+        "12:00 - 15:00",
+        "19:00 - 23:30",
+        "Monday closed"
+      ]
+    },
+    "social": {
+      "title": "Follow Us",
+      "lines": [
+        "Stay updated on our news and special events on our social channels."
+      ],
+      "links": [
+        { "label": "Instagram", "url": "https://instagram.com/tuoprofilo" },
+        { "label": "Facebook", "url": "https://facebook.com/tuoprofilo" }
+      ]
+    },
+    "copyright": "© This site was created by Ciro Maresca for educational purposes. All rights reserved."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "sections": [
+    {
+      "id": "storia",
+      "title": "Nuestra Historia",
+      "paragraphs": [
+        "En 1985, la familia Rossini abrió las puertas de Mare Azzurro, un pequeño restaurante con una gran pasión por la cocina tradicional.",
+        "Generación tras generación, hemos conservado las recetas familiares, continuando un legado de sabores auténticos y cálida hospitalidad."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Interior histórico del restaurante",
+        "overlayTitle": "1985 - El Comienzo de un Sueño",
+        "overlayText": "La primera sede del restaurante con las mesas originales"
+      }
+    },
+    {
+      "title": "La Tradición de la Pasta",
+      "paragraphs": [
+        "Cada mañana nuestros chefs comienzan a preparar pasta fresca siguiendo métodos artesanales transmitidos por la abuela María.",
+        "¿Nuestro secreto? La masa se amasa a mano durante al menos 15 minutos, asegurando la textura perfecta."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Plato de pasta fresca",
+        "overlayTitle": "Pasta Casera",
+        "overlayText": "Preparamos pasta fresca todos los días"
+      }
+    },
+    {
+      "title": "Delicias del Mar",
+      "paragraphs": [
+        "Nuestros platos de pescado provienen de pescadores locales, seleccionados cada día al amanecer en el puerto de Sorrento.",
+        "Solo utilizamos ingredientes frescos, procesados el mismo día para llevar el mar directamente al plato."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Plato de mariscos frescos",
+        "overlayTitle": "Del Mar a la Mesa",
+        "overlayText": "Pescado del día cuidadosamente seleccionado"
+      }
+    },
+    {
+      "title": "El Horno de Leña",
+      "paragraphs": [
+        "Nuestro horno de leña se enciende temprano por la mañana, dando a la pizza ese sabor auténtico que solo la cocción tradicional puede ofrecer.",
+        "Usamos solo leña de olivo y harinas molidas a la piedra para un resultado crujiente y aromático."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Horno de leña encendido",
+        "overlayTitle": "Tradición Napolitana",
+        "overlayText": "Pizza cocida en horno de leña"
+      }
+    },
+    {
+      "title": "Postres Familiares",
+      "paragraphs": [
+        "Cada postre cuenta una historia: baba, delicia de limón, pastiera… todos preparados siguiendo las recetas originales.",
+        "Usamos solo ingredientes naturales, como limones de Sorrento y ricotta fresca de la lechería local."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Postres tradicionales napolitanos",
+        "overlayTitle": "Sabores Auténticos",
+        "overlayText": "Postres artesanales con ingredientes locales"
+      }
+    },
+    {
+      "title": "La Bodega",
+      "paragraphs": [
+        "Nuestra selección de vinos acompaña cada plato con equilibrio y carácter.",
+        "Desde las colinas del Vesubio hasta los viñedos de la Costa, elegimos solo productores locales que respetan la tradición."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Botellas de vino en la bodega",
+        "overlayTitle": "Vinos Seleccionados",
+        "overlayText": "Nuestra bodega realza el territorio"
+      }
+    },
+    {
+      "title": "Hospitalidad",
+      "paragraphs": [
+        "Recibir con una sonrisa es nuestro primer ingrediente.",
+        "Cada cliente es parte de nuestra familia y nos esforzamos por hacerlo sentir como en casa."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Salón del restaurante con clientes",
+        "overlayTitle": "Como en Casa",
+        "overlayText": "Hospitalidad cálida y auténtica"
+      }
+    },
+    {
+      "title": "Las Estaciones en el Plato",
+      "paragraphs": [
+        "Seguimos el ritmo de las estaciones, adaptando nuestro menú a lo que la tierra y el mar ofrecen.",
+        "Primavera, verano, otoño e invierno: cada plato tiene su momento especial."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Verduras frescas de temporada",
+        "overlayTitle": "Cocina Estacional",
+        "overlayText": "Ingredientes frescos cada mes"
+      }
+    },
+    {
+      "title": "Clases de Cocina",
+      "paragraphs": [
+        "Compartimos nuestra pasión enseñando a preparar los platos típicos de la tradición.",
+        "Nuestras clases están abiertas a todos: desde niños curiosos hasta turistas enamorados de la cocina italiana."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Clase de cocina en progreso",
+        "overlayTitle": "Aprende con Nosotros",
+        "overlayText": "Clases para descubrir los secretos de nuestra cocina"
+      }
+    },
+    {
+      "title": "Un Viaje de Sabores",
+      "paragraphs": [
+        "Cada plato es un viaje sensorial entre sabores, aromas y recuerdos.",
+        "Venir a nosotros significa sumergirse en una experiencia auténtica, donde cada bocado cuenta una historia."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Mesa puesta",
+        "overlayTitle": "Experiencia Gastronómica",
+        "overlayText": "Un viaje a través de la tradición"
+      }
+    }
+  ]
+}

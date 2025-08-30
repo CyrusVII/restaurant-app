@@ -1,0 +1,135 @@
+{
+  "sections": [
+    {
+      "id": "storia",
+      "title": "Our Story",
+      "paragraphs": [
+        "In 1985, the Rossini family opened the doors of Mare Azzurro, a small restaurant with a great passion for traditional cuisine.",
+        "Generation after generation, we have preserved our family recipes, carrying on a legacy of authentic flavors and warm hospitality."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Historic interior of the restaurant",
+        "overlayTitle": "1985 - The Beginning of a Dream",
+        "overlayText": "The first restaurant location with original tables"
+      }
+    },
+    {
+      "title": "The Tradition of Pasta",
+      "paragraphs": [
+        "Every morning our chefs start preparing fresh pasta following artisanal methods passed down by Grandma Maria.",
+        "Our secret? The dough is kneaded by hand for at least 15 minutes, ensuring the perfect texture."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Plate of fresh pasta",
+        "overlayTitle": "Homemade Pasta",
+        "overlayText": "We prepare fresh pasta every day"
+      }
+    },
+    {
+      "title": "Seafood Delights",
+      "paragraphs": [
+        "Our seafood dishes come from local fishermen, selected every day at dawn in the port of Sorrento.",
+        "We only use fresh ingredients, processed the same day to bring the sea straight to your plate."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Fresh seafood dish",
+        "overlayTitle": "From Sea to Table",
+        "overlayText": "Carefully selected daily catch"
+      }
+    },
+    {
+      "title": "The Wood-Fired Oven",
+      "paragraphs": [
+        "Our wood-fired oven is lit early in the morning, giving our pizza the authentic taste that only traditional cooking can provide.",
+        "We only use olive wood and stone-milled flours for a crispy and fragrant result."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Lit wood-fired oven",
+        "overlayTitle": "Neapolitan Tradition",
+        "overlayText": "Pizza baked in a wood-fired oven"
+      }
+    },
+    {
+      "title": "Family Desserts",
+      "paragraphs": [
+        "Each dessert tells a story: baba, lemon delight, pastiera… all prepared following the original recipes.",
+        "We use only natural ingredients, such as Sorrento lemons and fresh ricotta from the local dairy."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Traditional Neapolitan desserts",
+        "overlayTitle": "Authentic Flavors",
+        "overlayText": "Artisanal desserts with local ingredients"
+      }
+    },
+    {
+      "title": "The Wine Cellar",
+      "paragraphs": [
+        "Our wine selection complements each dish with balance and character.",
+        "From the hills of Vesuvius to the vineyards of the Coast, we choose only local producers who respect tradition."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Bottles of wine in the cellar",
+        "overlayTitle": "Selected Wines",
+        "overlayText": "Our cellar highlights local territory"
+      }
+    },
+    {
+      "title": "Hospitality",
+      "paragraphs": [
+        "Welcoming with a smile is our first ingredient.",
+        "Every customer is part of our family, and we strive to make them feel at home."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Restaurant hall with customers",
+        "overlayTitle": "Like Home",
+        "overlayText": "Warm and authentic hospitality"
+      }
+    },
+    {
+      "title": "Seasons on the Plate",
+      "paragraphs": [
+        "We follow the rhythm of the seasons, adapting our menu to what the land and sea offer.",
+        "Spring, summer, autumn, and winter: each dish has its special moment."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Fresh seasonal vegetables",
+        "overlayTitle": "Seasonal Cuisine",
+        "overlayText": "Fresh ingredients every month"
+      }
+    },
+    {
+      "title": "Cooking Classes",
+      "paragraphs": [
+        "We share our passion by teaching how to prepare traditional dishes.",
+        "Our classes are open to everyone: from curious children to tourists in love with Italian cuisine."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Ongoing cooking class",
+        "overlayTitle": "Learn with Us",
+        "overlayText": "Classes to discover the secrets of our cuisine"
+      }
+    },
+    {
+      "title": "A Journey in Flavors",
+      "paragraphs": [
+        "Each dish is a sensory journey through flavors, aromas, and memories.",
+        "Visiting us means immersing yourself in an authentic experience, where every bite tells a story."
+      ],
+      "image": {
+        "src": "assets/img/capri.png",
+        "alt": "Set dining table",
+        "overlayTitle": "Gastronomic Experience",
+        "overlayText": "A journey through tradition"
+      }
+    }
+  ]
+}
