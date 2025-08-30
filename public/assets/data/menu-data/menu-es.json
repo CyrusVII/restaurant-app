@@ -1,0 +1,163 @@
+{
+  "menu": [
+    {
+      "categoria": "Fritos",
+      "piatti": [
+        {
+          "nome": "O Cuoppo (frito a la italiana) x2",
+          "descrizione": "Cuoppo napolitano para 2 personas — mezcla de croquetas de patata, arancini y zeppoline.",
+          "prezzo": 12.0,
+          "immagine": "assets/img/ocuoppo.png"
+        },
+        {
+          "nome": "Trío Clásico",
+          "descrizione": "Montanarine fritas con tomate San Marzano, albahaca y parmesano.",
+          "prezzo": 6.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Frittatine de pasta (2 uds)",
+          "descrizione": "Clásica / Estilo Nerano (con calabacín) / Siciliana (con berenjena).",
+          "prezzo": 4.5,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Croquetón en panko - Clásico",
+          "descrizione": "Croquetón gourmet clásico en panko.",
+          "prezzo": 7.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Croquetón en panko - Caprese",
+          "descrizione": "Croquetón gourmet con tomate y mozzarella de búfala.",
+          "prezzo": 10.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Croquetón en panko - Nerano",
+          "descrizione": "Croquetón gourmet con calabacín.",
+          "prezzo": 10.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Croquetón en panko - Mortadela y Pistacho",
+          "descrizione": "Croquetón gourmet con mortadela y pistacho.",
+          "prezzo": 10.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Patatas Dippers - Cacio e Pepe",
+          "descrizione": "Patatas en forma de barca con cacio e pepe.",
+          "prezzo": 7.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Patatas Dippers - Cheddar y Bacon",
+          "descrizione": "Patatas en forma de barca con cheddar y bacon.",
+          "prezzo": 7.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Patatas Dippers - Salchichas",
+          "descrizione": "Patatas en forma de barca con salchichas.",
+          "prezzo": 7.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Patatas Fritas",
+          "descrizione": "Patatas fritas clásicas.",
+          "prezzo": 6.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Croqueta + Frittatina + Zeppolina",
+          "descrizione": "Croqueta de patata, frittatina de pasta y zeppolina salada (1 ud cada una).",
+          "prezzo": 2.5,
+          "immagine": "assets/img/"
+        }
+      ]
+    },
+    {
+      "categoria": "Entrantes",
+      "piatti": [
+        {
+          "nome": "Tabla de quesos y embutidos (x2)",
+          "descrizione": "Selección de quesos y embutidos italianos con pan, miel y mermelada.",
+          "prezzo": 24.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Jamón y trenza de Sorrento",
+          "descrizione": "Jamón curado acompañado de mozzarella fresca trenzada.",
+          "prezzo": 10.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Ensalada Caprese",
+          "descrizione": "Mozzarella fresca, tomate, albahaca, aceite de oliva virgen extra y orégano.",
+          "prezzo": 11.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Carpaccio de ternera",
+          "descrizione": "Finísimas láminas de ternera cruda con tomates cherry, lascas de parmesano y aceite de oliva virgen extra.",
+          "prezzo": 15.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Parmigiana de berenjena",
+          "descrizione": "Berenjenas al horno con salsa de tomate, mozzarella, parmesano y albahaca.",
+          "prezzo": 12.0,
+          "immagine": "assets/img/"
+        }
+      ]
+    },
+    {
+      "categoria": "Platos de Mar",
+      "piatti": [
+        {
+          "nome": "Verano Azul",
+          "descrizione": "Fior di latte, pimientos de río, tomates cherry amarillos y rojos, mejillones, pecorino romano y albahaca.",
+          "prezzo": 14.9,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Pulpo a la plancha",
+          "descrizione": "Pulpo a la parrilla sobre crema de patata al limón.",
+          "prezzo": 16.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Mejillones y almejas salteados",
+          "descrizione": "Mejillones y almejas salteados en sartén.",
+          "prezzo": 15.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Espaguetis con almejas",
+          "descrizione": "Espaguetis con almejas y tomates cherry frescos.",
+          "prezzo": 18.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Ñoquis con gambas y calabacín",
+          "descrizione": "Ñoquis de patata con gambas y calabacín salteado.",
+          "prezzo": 16.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Fritura de calamares y gambas",
+          "descrizione": "Calamares y gambas fritas.",
+          "prezzo": 20.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Dorada o lubina a la plancha",
+          "descrizione": "Dorada o lubina a la plancha con guarnición.",
+          "prezzo": 30.0,
+          "immagine": "assets/img/"
+        }
+      ]
+    }
+  ]
+}

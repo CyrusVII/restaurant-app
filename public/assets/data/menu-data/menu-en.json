@@ -1,0 +1,458 @@
+{
+  "menu": [
+    {
+      "categoria": "Fried",
+      "piatti": [
+        {
+          "nome": "O Cuoppo (Italian-style fried) x2",
+          "descrizione": "Neapolitan Cuoppo for 2 people — mix of potato croquettes, arancini and zeppoline.",
+          "prezzo": 12.0,
+          "immagine": "assets/img/ocuoppo.png"
+        },
+        {
+          "nome": "Classic Trio",
+          "descrizione": "Fried Montanarine with San Marzano tomato, basil and parmesan.",
+          "prezzo": 6.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Pasta Frittatine (2 pcs)",
+          "descrizione": "Classic / Nerano style (with zucchini) / Sicilian (with eggplant).",
+          "prezzo": 4.5,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Jumbo Croquette in Panko - Classic",
+          "descrizione": "Classic jumbo gourmet croquette in panko.",
+          "prezzo": 7.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Jumbo Croquette in Panko - Caprese",
+          "descrizione": "Jumbo gourmet croquette with tomato and buffalo mozzarella.",
+          "prezzo": 10.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Jumbo Croquette in Panko - Nerano",
+          "descrizione": "Jumbo gourmet croquette with zucchini.",
+          "prezzo": 10.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Jumbo Croquette in Panko - Mortadella and Pistachio",
+          "descrizione": "Jumbo gourmet croquette with mortadella and pistachio.",
+          "prezzo": 10.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Potato Dippers - Cacio e Pepe",
+          "descrizione": "Boat-shaped potatoes with cacio e pepe.",
+          "prezzo": 7.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Potato Dippers - Cheddar and Bacon",
+          "descrizione": "Boat-shaped potatoes with cheddar and bacon.",
+          "prezzo": 7.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Potato Dippers - Sausages",
+          "descrizione": "Boat-shaped potatoes with sausages.",
+          "prezzo": 7.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "French Fries",
+          "descrizione": "French fries.",
+          "prezzo": 6.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Croquette + Pasta Frittatina + Zeppolina",
+          "descrizione": "Potato croquette, pasta frittatina and savory zeppolina (1 pc each).",
+          "prezzo": 2.5,
+          "immagine": "assets/img/"
+        }
+      ]
+    },
+    {
+      "categoria": "Starters",
+      "piatti": [
+        {
+          "nome": "Cheese and Cold Cuts Board (x2)",
+          "descrizione": "Selection of Italian cheeses and cured meats with bread, honey and jam.",
+          "prezzo": 24.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Prosciutto and Sorrento Treccia",
+          "descrizione": "Cured ham served with fresh mozzarella treccia.",
+          "prezzo": 10.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Caprese Salad",
+          "descrizione": "Fresh mozzarella, tomato, basil, EVO oil and oregano.",
+          "prezzo": 11.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Beef Carpaccio",
+          "descrizione": "Thin slices of raw beef with cherry tomatoes, parmesan flakes and EVO oil.",
+          "prezzo": 15.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Eggplant Parmigiana",
+          "descrizione": "Baked eggplants with tomato sauce, mozzarella, parmesan and basil.",
+          "prezzo": 12.0,
+          "immagine": "assets/img/"
+        }
+      ]
+    },
+    {
+      "categoria": "Seafood Dishes",
+      "piatti": [
+        {
+          "nome": "Blue Summer",
+          "descrizione": "Fior di latte, river peppers, yellow and red cherry tomatoes, mussels, pecorino romano and basil.",
+          "prezzo": 14.9,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Seared Octopus",
+          "descrizione": "Grilled octopus on lemon potato cream.",
+          "prezzo": 16.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Sautéed Mussels and Clams",
+          "descrizione": "Mussels and clams sautéed in a pan.",
+          "prezzo": 15.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Spaghetti with Clams",
+          "descrizione": "Spaghetti with clams and fresh cherry tomatoes.",
+          "prezzo": 18.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Gnocchi with Shrimps and Zucchini",
+          "descrizione": "Potato gnocchi with shrimps and sautéed zucchini.",
+          "prezzo": 16.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Fried Shrimps and Calamari",
+          "descrizione": "Fried shrimps and calamari.",
+          "prezzo": 20.0,
+          "immagine": "assets/img/"
+        },
+        {
+          "nome": "Grilled Sea Bream or Seabass",
+          "descrizione": "Grilled sea bream or seabass with side dish.",
+          "prezzo": 30.0,
+          "immagine": "assets/img/"
+        }
+      ]
+    },
+    {
+      "categoria": "Traditional Pizzas",
+      "piatti": [
+        {
+          "nome": "Margherita",
+          "descrizione": "Capri Blu selected tomatoes, Agerola fior di latte, basil and EVO oil.",
+          "prezzo": 6.9,
+          "immagine": "assets/margherita.jpg"
+        },
+        {
+          "nome": "Marinara",
+          "descrizione": "Capri Blu selected tomatoes, oregano, garlic and EVO oil.",
+          "prezzo": 5.9,
+          "immagine": "assets/marinara.jpg"
+        },
+        {
+          "nome": "Neapolitan",
+          "descrizione": "Capri Blu selected tomatoes, mountain oregano, garlic, black olives, Cetara anchovies, basil and EVO oil.",
+          "prezzo": 7.0,
+          "immagine": "assets/napoletana.jpg"
+        },
+        {
+          "nome": "Revisited Neapolitan",
+          "descrizione": "Sautéed yellow tomato, oregano, black olives, red cherry tomatoes, garlic, basil and EVO oil.",
+          "prezzo": 11.5,
+          "immagine": "assets/napoletana_rivisitata.jpg"
+        },
+        {
+          "nome": "Bufalina",
+          "descrizione": "Capri Blu selected tomatoes, buffalo mozzarella D.O.P., basil and EVO oil.",
+          "prezzo": 9.0,
+          "immagine": "assets/bufalina.jpg"
+        },
+        {
+          "nome": "Cosacca",
+          "descrizione": "Capri Blu selected tomatoes, pecorino romano, basil and EVO oil.",
+          "prezzo": 5.9,
+          "immagine": "assets/cosacca.jpg"
+        },
+        {
+          "nome": "Provola and Pepper",
+          "descrizione": "Capri Blu selected tomatoes, Agerola provola, ground pepper, basil and EVO oil.",
+          "prezzo": 7.9,
+          "immagine": "assets/provola_pepe.jpg"
+        },
+        {
+          "nome": "Diavola",
+          "descrizione": "Capri Blu selected tomatoes, Agerola fior di latte, spicy salami, basil and EVO oil.",
+          "prezzo": 8.9,
+          "immagine": "assets/diavola.jpg"
+        },
+        {
+          "nome": "Caprese Focaccia",
+          "descrizione": "Sorrento tomato, buffalo mozzarella D.O.P., mountain oregano, basil and EVO oil.",
+          "prezzo": 10.0,
+          "immagine": "assets/focaccia_caprese.jpg"
+        },
+        {
+          "nome": "Capricciosa",
+          "descrizione": "Capri Blu selected tomatoes, Agerola fior di latte, Napoli salami, cooked ham, champignon mushrooms, artichokes, black olives, basil and EVO oil.",
+          "prezzo": 9.9,
+          "immagine": "assets/capricciosa.jpg"
+        },
+        {
+          "nome": "Sicilian",
+          "descrizione": "Agerola smoked provola, eggplants, red cherry tomato, crumbled sausage, sheep caciotta, basil and EVO oil.",
+          "prezzo": 8.9,
+          "immagine": "assets/siciliana.jpg"
+        },
+        {
+          "nome": "Ortolana (Vegetarian)",
+          "descrizione": "Agerola fior di latte, eggplants, peppers, zucchini chips, basil and EVO oil.",
+          "prezzo": 8.9,
+          "immagine": "assets/ortolana.jpg"
+        },
+        {
+          "nome": "Sausage & Fries",
+          "descrizione": "Agerola fior di latte, sausages, French fries and EVO oil.",
+          "prezzo": 8.0,
+          "immagine": "assets/wrustel_patatine.jpg"
+        },
+        {
+          "nome": "Crocco Pizza",
+          "descrizione": "Agerola fior di latte, cream, cooked ham, croquette, basil and EVO oil.",
+          "prezzo": 10.0,
+          "immagine": "assets/crocco_pizza.jpg"
+        },
+        {
+          "nome": "Patanella",
+          "descrizione": "Agerola provola, roasted potatoes, crumbled sausage, basil and EVO oil.",
+          "prezzo": 10.0,
+          "immagine": "assets/patanella.jpg"
+        },
+        {
+          "nome": "5 Cheeses",
+          "descrizione": "Agerola provola, gorgonzola, ricotta fior di Fruscella, pecorino romano, provolone del monaco flakes, basil and EVO oil.",
+          "prezzo": 11.0,
+          "immagine": "assets/5_formaggi.jpg"
+        },
+        {
+          "nome": "4 Tomatoes",
+          "descrizione": "Agerola fior di latte, Capri Blu selected tomatoes, sautéed yellow tomato, yellow cherry tomato, red cherry tomato, basil and EVO oil.",
+          "prezzo": 9.9,
+          "immagine": "assets/4_pomodori.jpg"
+        },
+        {
+          "nome": "Tuna and Onion",
+          "descrizione": "Stewed onion, Agerola fior di latte, black olives, tuna fillets, basil and EVO oil.",
+          "prezzo": 11.0,
+          "immagine": "assets/tonno_cipolla.jpg"
+        },
+        {
+          "nome": "Classic Calzone",
+          "descrizione": "Baked calzone with Capri Blu selected tomatoes, ricotta fior di Fruscella, Agerola provola, Napoli salami, cooked ham, pecorino, basil and EVO oil.",
+          "prezzo": 9.5,
+          "immagine": "assets/ripieno_classico.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Fried Pizzas",
+      "piatti": [
+        {
+          "nome": "Classic Montanara",
+          "descrizione": "Capri Blu selected tomatoes, buffalo mozzarella D.O.P., parmesan, basil and EVO oil.",
+          "prezzo": 10.0,
+          "immagine": "assets/montanara_classica.jpg"
+        },
+        {
+          "nome": "Sorrento Montanara",
+          "descrizione": "Double cooked Montanara with sautéed yellow tomato, buffalo mozzarella D.O.P., parmesan fondue, Parma ham, Sorrento walnuts, basil and EVO oil.",
+          "prezzo": 13.9,
+          "immagine": "assets/montanara_sorrento.jpg"
+        },
+        {
+          "nome": "Classic Fried Calzone",
+          "descrizione": "Capri Blu selected tomatoes, ricotta fior di Fruscella, Agerola provola, Napoli salami, cooked ham, ground pepper, pecorino.",
+          "prezzo": 9.5,
+          "immagine": "assets/ripieno_classico_fritto.jpg"
+        },
+        {
+          "nome": "Neapolitan Fried Calzone",
+          "descrizione": "Capri Blu selected tomatoes, ricotta fior di Fruscella, Agerola provola, Neapolitan cicoli, ground pepper.",
+          "prezzo": 9.5,
+          "immagine": "assets/ripieno_napoletano_fritto.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Capri Blu Sorrento Signature",
+      "piatti": [
+        {
+          "nome": "Capri Blu 2.0",
+          "descrizione": "Baked calzone with ricotta fior di Fruscella, Agerola fior di latte, arugula, red and yellow cherry tomatoes, Parma ham, parmesan fondue and EVO oil.",
+          "prezzo": 12.0,
+          "immagine": "assets/capri_blu_2_0.jpg"
+        },
+        {
+          "nome": "Nerano",
+          "descrizione": "Zucchini cream, Agerola provola, parmesan, zucchini chips, provolone del monaco flakes, basil and EVO oil.",
+          "prezzo": 12.0,
+          "immagine": "assets/nerano.jpg"
+        },
+        {
+          "nome": "Blue Roast",
+          "descrizione": "Agerola fior di latte, yellow cherry tomatoes, Parma ham, buffalo stracciata, basil and EVO oil.",
+          "prezzo": 12.9,
+          "immagine": "assets/arrosto_blu.jpg"
+        },
+        {
+          "nome": "Pulcinella",
+          "descrizione": "Agerola provola, ricotta fior di Fruscella, rolled pancetta, ground pepper, Sorrento lemon zest, basil and EVO oil.",
+          "prezzo": 10.0,
+          "immagine": "assets/pulecenella.jpg"
+        },
+        {
+          "nome": "Sun of Naples",
+          "descrizione": "Sautéed yellow tomato, buffalo mozzarella D.O.P., provolone del monaco flakes, basil and EVO oil.",
+          "prezzo": 10.9,
+          "immagine": "assets/sole_di_napoli.jpg"
+        },
+        {
+          "nome": "Naples Old Town",
+          "descrizione": "Stuffed crust with ricotta fior di Fruscella, touch of Capri Blu tomatoes, Agerola provola, Neapolitan cicoli, ground pepper, basil and EVO oil.",
+          "prezzo": 11.0,
+          "immagine": "assets/centro_storico_napoli.jpg"
+        },
+        {
+          "nome": "Bologna",
+          "descrizione": "Agerola fior di latte, mortadella I.G.P., Bronte pistachio pesto, pistachio crumble, basil and EVO oil.",
+          "prezzo": 10.9,
+          "immagine": "assets/bologna.jpg"
+        },
+        {
+          "nome": "Cacio e Pepe",
+          "descrizione": "Agerola smoked provola, rolled pancetta, ground pepper, Neapolitan tarallo crumble, Cacio e Pepe cream, EVO oil and basil.",
+          "prezzo": 12.9,
+          "immagine": "assets/cacio_e_pepe.jpg"
+        },
+        {
+          "nome": "Pulled Pork",
+          "descrizione": "Stewed onion, pulled pork, Agerola fior di latte, crispy onion, basil and EVO oil.",
+          "prezzo": 11.0,
+          "immagine": "assets/pulled_pork.jpg"
+        },
+        {
+          "nome": "Faraglione",
+          "descrizione": "Baked calzone with escarole, Cetara anchovies, black olives, Agerola fior di latte, pecorino romano and EVO oil.",
+          "prezzo": 10.9,
+          "immagine": "assets/faraglione.jpg"
+        },
+        {
+          "nome": "San Gennaro",
+          "descrizione": "Cheese-crusted calzone with eggplant parmigiana, Agerola fior di latte, basil and EVO oil.",
+          "prezzo": 11.0,
+          "immagine": "assets/san_gennaro.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Carro’ Selection",
+      "piatti": [
+        {
+          "nome": "Margherita",
+          "descrizione": "Capri Blu selected tomatoes, Agerola fior di latte, basil and EVO oil.",
+          "prezzo": 7.9,
+          "immagine": "assets/margherita_carro.jpg"
+        },
+        {
+          "nome": "Neapolitan",
+          "descrizione": "Capri Blu selected tomatoes, mountain oregano, garlic, black olives, Cetara anchovies, basil and EVO oil.",
+          "prezzo": 8.0,
+          "immagine": "assets/napoletana_carro.jpg"
+        },
+        {
+          "nome": "Provola and Pepper",
+          "descrizione": "Capri Blu selected tomatoes, Agerola provola, ground pepper, basil and EVO oil.",
+          "prezzo": 8.9,
+          "immagine": "assets/provola_pepe_carro.jpg"
+        },
+        {
+          "nome": "Diavola",
+          "descrizione": "Capri Blu selected tomatoes, Agerola fior di latte, spicy salami, basil and EVO oil.",
+          "prezzo": 9.9,
+          "immagine": "assets/diavola_carro.jpg"
+        },
+        {
+          "nome": "Bufalina",
+          "descrizione": "Capri Blu selected tomatoes, buffalo mozzarella D.O.P., basil and EVO oil.",
+          "prezzo": 10.0,
+          "immagine": "assets/bufalina_carro.jpg"
+        },
+        {
+          "nome": "Ortolana",
+          "descrizione": "Agerola fior di latte, eggplants, peppers, zucchini chips, basil and EVO oil.",
+          "prezzo": 9.9,
+          "immagine": "assets/ortolana_carro.jpg"
+        }
+      ]
+    },
+    {
+      "categoria": "Desserts",
+      "piatti": [
+        {
+          "nome": "Delizia al Limone",
+          "descrizione": "Sorrento lemon delight dessert.",
+          "prezzo": 6.0,
+          "immagine": "assets/delizialimone.jpg"
+        },
+        {
+          "nome": "Caprese Cake",
+          "descrizione": "Almond and chocolate Caprese cake.",
+          "prezzo": 6.0,
+          "immagine": "assets/caprese.jpg"
+        },
+        {
+          "nome": "Baba",
+          "descrizione": "Traditional Neapolitan baba with rum.",
+          "prezzo": 5.0,
+          "immagine": "assets/baba.jpg"
+        },
+        {
+          "nome": "Pastiera",
+          "descrizione": "Traditional Neapolitan ricotta and wheat tart.",
+          "prezzo": 5.0,
+          "immagine": "assets/pastiera.jpg"
+        },
+        {
+          "nome": "Tiramisù",
+          "descrizione": "Classic Italian tiramisù with mascarpone cream and coffee.",
+          "prezzo": 5.0,
+          "immagine": "assets/tiramisu.jpg"
+        }
+      ]
+    }
+  ]
+}

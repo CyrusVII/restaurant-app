@@ -1,18 +1,31 @@
 <nav>
   <div class="container">
-    <ul>
-      <li *ngFor="let item of navbarLinks">
-        <a [href]="item.link">{{ item.label }}</a>
-      </li>
-    </ul>
+    <div>
+      <ul>
+        <li *ngFor="let item of navbarLinks">
+          <a [href]="item.link">{{ item.label }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Language Switcher -->
+    <div class="language-switcher" [class.open]="isDropdownOpen">
+      <button class="language-dropdown-btn" (click)="toggleDropdown(); $event.stopPropagation()">
+        <img class="flag" [src]="getCurrentFlag()" [alt]="getCurrentLangName()">
+        <span class="dropdown-arrow">▼</span>
+      </button>
+
+      <div class="language-dropdown">
+        <button *ngFor="let lang of langs" (click)="switchLang(lang.code); $event.stopPropagation()"
+          [class.active]="lang.code === currentLang">
+          <img class="flag" [src]="getFlagFromCode(lang.code)" [alt]="lang.name">
+          <span class="lang-name">{{ lang.name }}</span>
+        </button>
+      </div>
+    </div>
+
   </div>
 
-  <!-- Sezione cambio lingua -->
-  <div class="language-switcher">
-    <button *ngFor="let lang of langs" (click)="switchLang(lang.code)" [class.active]="lang.code === currentLang">
-      {{ lang.name }}
-    </button>
-  </div>
 
 
 </nav>
