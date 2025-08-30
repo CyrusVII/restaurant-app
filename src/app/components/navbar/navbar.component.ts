@@ -51,7 +51,7 @@ export class NavbarComponent implements OnInit {
     // Mappa codici lingua a codici paese per le bandiere
     const langToCountry: { [key: string]: string } = {
       it: 'it',
-      en: 'gb', // o 'us' se preferisci la bandiera USA
+      en: 'gb',
       fr: 'fr',
       de: 'de',
       es: 'es',
