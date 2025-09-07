@@ -15,7 +15,8 @@
 /* Menu nav per desktop */
 .menu-nav {
   position: sticky;
-  top: 60px;
+  top: 100px;
+  z-index: 1000;
   background: rgba(25, 118, 210, 0.95);
   padding: 0.8rem;
   border-radius: 12px;

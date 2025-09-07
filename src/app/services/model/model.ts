@@ -1,3 +1,10 @@
+//header model interface
+export interface HeaderData {
+  logo: string;
+  subtitle: string;
+  backGroundImg: string[];
+}
+
 //nav model interfaces
 export interface NavbarLink {
   label: string;
@@ -27,8 +34,8 @@ export interface FooterData {
   copyright: string;
 }
 
-//section home interface 
-export interface HomeData{
+//section home interface
+export interface HomeData {
   id?: string;
   title: string;
   paragraphs: string[];
@@ -67,12 +74,12 @@ export interface InfoData {
   indirizzo: string;
   telefono: string;
   email: string;
-  whatsApp?: string; 
+  whatsApp?: string;
   orari: {
-    [key: string]: string; 
+    [key: string]: string;
   };
   social: {
-    [key: string]: string; 
+    [key: string]: string;
   };
   mappa: {
     embedUrl: string;

@@ -1,4 +1,13 @@
 {
+  "header": {
+    "logo": "assets/img/capriblulogo.png",
+    "subtitle": "Ristorante - Pizzeria - Cocktail Bar",
+    "backGroundImg": [
+      "assets/img/entrataGiardino.png",
+      "assets/img/giardino.png",
+      "assets/img/pizza.png"
+    ]
+  },
   "navbar": [
     { "label": "Inicio", "link": "home" },
     { "label": "Menú", "link": "menu" },
