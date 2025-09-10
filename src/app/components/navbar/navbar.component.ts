@@ -16,7 +16,10 @@ export class NavbarComponent implements OnInit, OnDestroy {
   HeaderData!: HeaderData;
   langs: LangOption[] = [];
   currentLang: string = '';
-  isDropdownOpen: boolean = false;
+
+  // Dropdown states separati
+  isHeaderDropdownOpen: boolean = false;
+  isStickyDropdownOpen: boolean = false;
 
   // Slider background
   currentBgIndex = 0;
@@ -96,15 +99,24 @@ export class NavbarComponent implements OnInit, OnDestroy {
   switchLang(lang: string): void {
     this.languageService.setLanguage(lang);
     this.currentLang = lang;
-    this.closeDropdown();
+    this.closeAllDropdowns();
   }
 
-  toggleDropdown(): void {
-    this.isDropdownOpen = !this.isDropdownOpen;
+  // Header dropdown methods
+  toggleHeaderDropdown(): void {
+    this.isHeaderDropdownOpen = !this.isHeaderDropdownOpen;
+    this.isStickyDropdownOpen = false; // Chiudi l'altro dropdown
   }
 
-  closeDropdown(): void {
-    this.isDropdownOpen = false;
+  // Sticky dropdown methods
+  toggleStickyDropdown(): void {
+    this.isStickyDropdownOpen = !this.isStickyDropdownOpen;
+    this.isHeaderDropdownOpen = false; // Chiudi l'altro dropdown
+  }
+
+  closeAllDropdowns(): void {
+    this.isHeaderDropdownOpen = false;
+    this.isStickyDropdownOpen = false;
   }
 
   getCurrentFlag(): string {
@@ -139,18 +151,18 @@ export class NavbarComponent implements OnInit, OnDestroy {
     return currentLangObj?.name || '';
   }
 
-  // HostListener per chiudere il dropdown quando si clicca fuori
+  // HostListener per chiudere i dropdown quando si clicca fuori
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: Event): void {
     const target = event.target as HTMLElement;
     if (!target.closest('.language-switcher')) {
-      this.closeDropdown();
+      this.closeAllDropdowns();
     }
   }
 
   // Gestione dei tasti per accessibilità
   @HostListener('document:keydown.escape', ['$event'])
   onEscapeKey(event: KeyboardEvent): void {
-    this.closeDropdown();
+    this.closeAllDropdowns();
   }
 }

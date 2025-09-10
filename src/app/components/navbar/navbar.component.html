@@ -9,7 +9,7 @@
     <div class="overlay"></div>
   </div>
 
-  <!-- Navigation Overlay - Originale nell'header -->
+  <!-- Navigation Overlay -->
   <div class="nav-overlay">
     <div class="nav-container">
       <!-- Navigation Links -->
@@ -21,16 +21,16 @@
         </li>
       </ul>
 
-      <!-- Language Switcher -->
-      <div class="language-switcher" [class.open]="isDropdownOpen">
-        <button class="language-dropdown-btn" (click)="toggleDropdown(); $event.stopPropagation()"
-          [attr.aria-label]="'Seleziona lingua: ' + getCurrentLangName()" [attr.aria-expanded]="isDropdownOpen">
+      <!-- Language Switcher Header -->
+      <div class="language-switcher" [class.open]="isHeaderDropdownOpen">
+        <button class="language-dropdown-btn" (click)="toggleHeaderDropdown(); $event.stopPropagation()"
+          [attr.aria-label]="'Seleziona lingua: ' + getCurrentLangName()" [attr.aria-expanded]="isHeaderDropdownOpen">
           <img class="flag" [src]="getCurrentFlag()" [alt]="getCurrentLangName()">
           <span class="hidden sm:inline">{{ getCurrentLangName() }}</span>
           <span class="dropdown-arrow">▼</span>
         </button>
 
-        <div class="language-dropdown" role="menu" [attr.aria-hidden]="!isDropdownOpen">
+        <div class="language-dropdown" role="menu" [attr.aria-hidden]="!isHeaderDropdownOpen">
           <button *ngFor="let lang of langs" (click)="switchLang(lang.code); $event.stopPropagation()"
             [class.active]="lang.code === currentLang" role="menuitem"
             [attr.aria-label]="'Cambia lingua a ' + lang.name">
@@ -69,16 +69,16 @@
       </li>
     </ul>
 
-    <!-- Language Switcher -->
-    <div class="language-switcher" [class.open]="isDropdownOpen">
-      <button class="language-dropdown-btn" (click)="toggleDropdown(); $event.stopPropagation()"
-        [attr.aria-label]="'Seleziona lingua: ' + getCurrentLangName()" [attr.aria-expanded]="isDropdownOpen">
+    <!-- Language Switcher Sticky -->
+    <div class="language-switcher" [class.open]="isStickyDropdownOpen">
+      <button class="language-dropdown-btn" (click)="toggleStickyDropdown(); $event.stopPropagation()"
+        [attr.aria-label]="'Seleziona lingua: ' + getCurrentLangName()" [attr.aria-expanded]="isStickyDropdownOpen">
         <img class="flag" [src]="getCurrentFlag()" [alt]="getCurrentLangName()">
         <span class="hidden sm:inline">{{ getCurrentLangName() }}</span>
         <span class="dropdown-arrow">▼</span>
       </button>
 
-      <div class="language-dropdown" role="menu" [attr.aria-hidden]="!isDropdownOpen">
+      <div class="language-dropdown" role="menu" [attr.aria-hidden]="!isStickyDropdownOpen">
         <button *ngFor="let lang of langs" (click)="switchLang(lang.code); $event.stopPropagation()"
           [class.active]="lang.code === currentLang" role="menuitem" [attr.aria-label]="'Cambia lingua a ' + lang.name">
           <img class="flag" [src]="getFlagFromCode(lang.code)" [alt]="lang.name">
